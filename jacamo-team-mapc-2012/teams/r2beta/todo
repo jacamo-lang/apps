@@ -1,0 +1,37 @@
+atacar primeiro exploradores no inicio
+(talvez perseguir eles)
+
+manter sempre dois reparadores dentro da área boa!!!! um de cada área!esses reparadores nao podem atender um agente fora da área boa
+
+na hora do repairer1 recrutar os outros reparadores ele jah pode verificar isso! Se o agente ferido esta fora da área boa então o reparador nao irá sair para atender.
+
+repairers 2 e 4 ficam nas áreas boas
+saboteur4 fica na área boa tbm...
+
+escolher vertice mais proximo do melhor no swarm
+
+fazer agentes adivinharem o sabotador, quando perdem vida!
+
+****** testar reparador desabilitado ir atras de outro reparador e nao se comprometer com ajudar outros
+
+****** fazer todos os agentes gravarem posicao. testar se a posicao dos agentes refleta a posicao esperada no swarm. distancia de dois.
+
+**** testar se estao formando uma unica área e nao várias areas no mesmo lugar!!
+
+**** escolher o vertice fora da zona de maior valor
+
+**** pode ter no maximo dois agentes sem outra conexao
+
+**** ao inves de random para escolher vertices usar uma idea de pegar o de mais alto valor. talvez criar uma IA que passa como parametro as opcoes de vertices e a lista de Ids, para saber quem escolhe 
+
+**** por criterios de desempenho calcular uma vez o dijkstra a partir da posicao atual do agente, depois reaproveitar para cada step.
+colocar uma variavel estatica com o step atual.
+quando calculado entao soh pega os resultados
+
+**** ver a ideia de reparar mesmo sem terminar a saude
+
+Ajustado um pouco a reparação na hora em que os agentes estão no vértice vizinho do reparador.
+
+Permitido ao sabotador comprar mais saúde somente se ele realmente viu algum sabotador próximo mais forte.
+
+criar dijkstra para exploradores que nao devem passar perto de vertice inimigo. Distancia de 1. nao passar nem pelos vizinhos de sabotadores

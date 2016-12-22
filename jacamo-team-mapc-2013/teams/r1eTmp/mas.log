@@ -1,0 +1,1663 @@
+[EISAdapter] new state RUNNING
+[explorer5] Adopted role explorer in grBeta
+[sentinel3] Adopted role sentinel in grBeta
+[inspector1] Adopted role inspector in grAlpha
+[sentinel6] Adopted role sentinelLeader in grMain
+[inspector6] Adopted role inspectorLeader in grMain
+[explorer6] Adopted role explorer in grAlpha
+[saboteur4] Adopted role saboteurLeader in grMain
+[repairer6] Adopted role repairerLeader in grMain
+[inspector6] Adopted role inspector in grAlpha
+[inspector3] Adopted role inspector in grBeta
+[explorer6] Adopted role explorerLeader in grMain
+[sentinel1] Adopted role sentinel in grAlpha
+[sentinel6] Adopted role sentinel in grAlpha
+[repairer1] Adopted role repairer in grAlpha
+[coach] Count is 0
+[saboteur1] Adopted role saboteur in grAlpha
+[sentinel4] Count is 0
+[sentinel4] Loaded artifact inspectArtifact
+[explorer5] Count is 0
+[explorer5] Loaded artifact inspectArtifact
+[explorer1] Count is 0
+[explorer1] Loaded artifact inspectArtifact
+[saboteur1] Count is 0
+[saboteur1] Loaded artifact inspectArtifact
+[explorer2] Count is 0
+[inspector6] Count is 0
+[explorer2] Loaded artifact inspectArtifact
+[inspector6] Loaded artifact inspectArtifact
+[sentinel1] Count is 0
+[sentinel1] Loaded artifact inspectArtifact
+[sentinel3] Count is 0
+[sentinel3] Loaded artifact inspectArtifact
+[repairer2] Count is 0
+[repairer2] Loaded artifact inspectArtifact
+[inspector3] Count is 0
+[inspector3] Loaded artifact inspectArtifact
+[sentinel2] Count is 0
+[sentinel2] Loaded artifact inspectArtifact
+[repairer6] Count is 0
+[repairer6] Loaded artifact inspectArtifact
+[inspector2] Count is 0
+[inspector2] Loaded artifact inspectArtifact
+[explorer4] Count is 0
+[repairer5] Adopted role repairer in grBeta
+[explorer4] Loaded artifact inspectArtifact
+[repairer5] Count is 0
+[repairer5] Loaded artifact inspectArtifact
+[repairer3] Count is 0
+[explorer3] Count is 0
+[repairer3] Loaded artifact inspectArtifact
+[explorer3] Loaded artifact inspectArtifact
+[explorer3] Adopted role explorer in grBeta
+[sentinel5] Count is 0
+[saboteur3] Count is 0
+[sentinel5] Loaded artifact inspectArtifact
+[saboteur3] Loaded artifact inspectArtifact
+[repairer4] Count is 0
+[repairer4] Loaded artifact inspectArtifact
+[inspector4] Count is 0
+[inspector4] Loaded artifact inspectArtifact
+[explorer6] Count is 0
+[explorer6] Loaded artifact inspectArtifact
+[inspector5] Count is 0
+[inspector5] Loaded artifact inspectArtifact
+[saboteur2] Count is 0
+[saboteur2] Loaded artifact inspectArtifact
+[sentinel6] Count is 0
+[sentinel6] Loaded artifact inspectArtifact
+[saboteur4] Count is 0
+[saboteur4] Loaded artifact inspectArtifact
+[inspector1] Count is 0
+[inspector1] Loaded artifact inspectArtifact
+[repairer1] Count is 0
+[repairer1] Loaded artifact inspectArtifact
+[sentinel2] Adopted role sentinel in grAlpha
+[explorer4] Adopted role explorer in grBeta
+[repairer6] Adopted role repairer in grAlpha
+[sentinel5] Adopted role sentinel in grBeta
+[saboteur3] Adopted role saboteur in grBeta
+[explorer1] Adopted role explorer in grAlpha
+[repairer2] Adopted role repairer in grAlpha
+[sentinel4] Adopted role sentinel in grBeta
+[inspector4] Adopted role inspector in grBeta
+[inspector2] Adopted role inspector in grAlpha
+[saboteur4] Adopted role saboteur in grAlpha
+[repairer3] Adopted role repairer in grBeta
+[inspector5] Adopted role inspector in grBeta
+[saboteur2] Adopted role saboteur in grBeta
+[explorer2] Adopted role explorer in grAlpha
+[repairer4] Adopted role repairer in grBeta
+[coach] The scheme is on.
+[sentinel1] I am obliged to commit to m2
+[sentinel1] Attending scheme schDomainMars
+[explorer6] I am obliged to commit to m1
+[explorer4] I am obliged to commit to m1
+[sentinel2] I am obliged to commit to m2
+[explorer6] Attending scheme schDomainMars
+[explorer4] Attending scheme schDomainMars
+[sentinel2] Attending scheme schDomainMars
+[inspector1] I am obliged to commit to m3
+[sentinel1] I am obliged to achieve goal surveyAll
+[sentinel1] Going to achieve surveyAll
+[inspector1] Attending scheme schDomainMars
+[explorer1] I am obliged to commit to m1
+[explorer1] Attending scheme schDomainMars
+[sentinel3] I am obliged to commit to m2
+[sentinel3] Attending scheme schDomainMars
+[sentinel4] I am obliged to commit to m2
+[inspector6] I am obliged to commit to m3
+[explorer6] I am obliged to achieve goal probeAll
+[inspector6] Attending scheme schDomainMars
+[inspector4] I am obliged to commit to m3
+[sentinel4] Attending scheme schDomainMars
+[inspector4] Attending scheme schDomainMars
+[explorer3] I am obliged to commit to m1
+[repairer6] Attending scheme schDomainMars
+[explorer3] Attending scheme schDomainMars
+[explorer2] I am obliged to commit to m1
+[explorer2] Attending scheme schDomainMars
+[explorer4] I am obliged to achieve goal probeAll
+[sentinel6] I am obliged to commit to m2
+[inspector5] I am obliged to commit to m3
+[sentinel6] Attending scheme schDomainMars
+[inspector5] Attending scheme schDomainMars
+[explorer5] I am obliged to commit to m1
+[explorer5] Attending scheme schDomainMars
+[inspector2] I am obliged to commit to m3
+[inspector2] Attending scheme schDomainMars
+[sentinel2] I am obliged to achieve goal surveyAll
+[sentinel2] Going to achieve surveyAll
+[inspector1] I am obliged to achieve goal discoverAllSaboteurs
+[inspector1] Going to achieve discoverAllSaboteurs
+[saboteur1] Attending scheme schDomainMars
+[repairer1] Attending scheme schDomainMars
+[repairer5] Attending scheme schDomainMars
+[sentinel5] I am obliged to commit to m2
+[sentinel5] Attending scheme schDomainMars
+[saboteur4] Attending scheme schDomainMars
+[saboteur2] Attending scheme schDomainMars
+[saboteur3] Attending scheme schDomainMars
+[repairer4] Attending scheme schDomainMars
+[inspector3] I am obliged to commit to m3
+[inspector3] Attending scheme schDomainMars
+[repairer2] Attending scheme schDomainMars
+[sentinel3] I am obliged to achieve goal surveyAll
+[sentinel3] Going to achieve surveyAll
+[explorer1] I am obliged to achieve goal probeAll
+[repairer3] Attending scheme schDomainMars
+[inspector6] I am obliged to achieve goal discoverAllSaboteurs
+[inspector6] Going to achieve discoverAllSaboteurs
+[sentinel4] I am obliged to achieve goal surveyAll
+[sentinel4] Going to achieve surveyAll
+[inspector4] I am obliged to achieve goal discoverAllSaboteurs
+[inspector4] Going to achieve discoverAllSaboteurs
+[explorer3] I am obliged to achieve goal probeAll
+[explorer2] I am obliged to achieve goal probeAll
+[sentinel6] I am obliged to achieve goal surveyAll
+[sentinel6] Going to achieve surveyAll
+[inspector5] I am obliged to achieve goal discoverAllSaboteurs
+[explorer5] I am obliged to achieve goal probeAll
+[inspector5] Going to achieve discoverAllSaboteurs
+[inspector2] I am obliged to achieve goal discoverAllSaboteurs
+[inspector2] Going to achieve discoverAllSaboteurs
+[sentinel5] I am obliged to achieve goal surveyAll
+[sentinel5] Going to achieve surveyAll
+[inspector3] I am obliged to achieve goal discoverAllSaboteurs
+[inspector3] Going to achieve discoverAllSaboteurs
+[explorer1] Contest started!
+[explorer1] Edges 815
+[explorer1] Edges 815
+[explorer1] Vertices 300
+[explorer1] Steps 750
+[explorer1] Vertices 300
+[explorer1] Steps 750
+[explorer2] Contest started!
+[explorer2] Edges 815
+[explorer2] Edges 815
+[explorer2] Vertices 300
+[explorer2] Steps 750
+[explorer2] Vertices 300
+[explorer2] Steps 750
+[explorer3] Contest started!
+[explorer3] Edges 815
+[explorer3] Edges 815
+[explorer3] Vertices 300
+[explorer3] Steps 750
+[explorer3] Vertices 300
+[explorer3] Steps 750
+[explorer4] Contest started!
+[explorer4] Edges 815
+[explorer4] Edges 815
+[explorer4] Vertices 300
+[explorer4] Steps 750
+[explorer4] Vertices 300
+[explorer4] Steps 750
+[explorer5] Contest started!
+[explorer5] Edges 815
+[explorer5] Edges 815
+[explorer5] Vertices 300
+[explorer5] Steps 750
+[explorer5] Vertices 300
+[explorer5] Steps 750
+[explorer6] Contest started!
+[explorer6] Edges 815
+[explorer6] Edges 815
+[explorer6] Vertices 300
+[explorer6] Steps 750
+[explorer6] Vertices 300
+[explorer6] Steps 750
+[repairer1] NON Count is 0
+[repairer1] Contest started!
+[repairer1] Edges 815
+[repairer1] Edges 815
+[repairer1] Vertices 300
+[repairer1] Steps 750
+[repairer1] Vertices 300
+[repairer1] Steps 750
+[repairer2] NON Count is 0
+[repairer2] Contest started!
+[repairer2] Edges 815
+[repairer2] Edges 815
+[repairer2] Vertices 300
+[repairer2] Steps 750
+[repairer2] Vertices 300
+[repairer2] Steps 750
+[repairer3] NON Count is 0
+[repairer3] Contest started!
+[repairer3] Edges 815
+[repairer3] Edges 815
+[repairer3] Vertices 300
+[repairer3] Steps 750
+[repairer3] Vertices 300
+[repairer3] Steps 750
+[repairer4] NON Count is 0
+[repairer4] Contest started!
+[repairer4] Edges 815
+[repairer4] Edges 815
+[repairer4] Vertices 300
+[repairer4] Steps 750
+[repairer4] Vertices 300
+[repairer4] Steps 750
+[repairer5] NON Count is 0
+[repairer5] Contest started!
+[repairer5] Edges 815
+[repairer5] Edges 815
+[repairer5] Vertices 300
+[repairer5] Steps 750
+[repairer5] Vertices 300
+[repairer5] Steps 750
+[repairer6] NON Count is 0
+[repairer6] Contest started!
+[repairer6] Edges 815
+[repairer6] Edges 815
+[repairer6] Vertices 300
+[repairer6] Steps 750
+[repairer6] Vertices 300
+[repairer6] Steps 750
+[saboteur1] NON Count is 0
+[saboteur1] Contest started!
+[saboteur1] Edges 815
+[saboteur1] Edges 815
+[saboteur1] Vertices 300
+[saboteur1] Steps 750
+[saboteur1] Vertices 300
+[saboteur1] Steps 750
+[saboteur2] NON Count is 0
+[saboteur2] Contest started!
+[saboteur2] Edges 815
+[saboteur2] Edges 815
+[saboteur2] Vertices 300
+[saboteur2] Steps 750
+[saboteur2] Vertices 300
+[saboteur2] Steps 750
+[saboteur3] NON Count is 0
+[saboteur3] Contest started!
+[saboteur3] Edges 815
+[saboteur3] Edges 815
+[saboteur3] Vertices 300
+[saboteur3] Steps 750
+[saboteur3] Vertices 300
+[saboteur3] Steps 750
+[saboteur4] NON Count is 0
+[saboteur4] Contest started!
+[saboteur4] Edges 815
+[saboteur4] Edges 815
+[saboteur4] Vertices 300
+[saboteur4] Steps 750
+[saboteur4] Vertices 300
+[saboteur4] Steps 750
+[sentinel1] NON Count is 0
+[sentinel1] Contest started!
+[sentinel1] Edges 815
+[sentinel1] Edges 815
+[sentinel1] Vertices 300
+[sentinel1] Steps 750
+[sentinel1] Vertices 300
+[sentinel1] Steps 750
+[sentinel2] NON Count is 0
+[sentinel2] Contest started!
+[sentinel2] Edges 815
+[sentinel2] Edges 815
+[sentinel2] Vertices 300
+[sentinel2] Steps 750
+[sentinel2] Vertices 300
+[sentinel2] Steps 750
+[sentinel3] NON Count is 0
+[sentinel3] Contest started!
+[sentinel3] Edges 815
+[sentinel3] Edges 815
+[sentinel3] Vertices 300
+[sentinel3] Steps 750
+[sentinel3] Vertices 300
+[sentinel3] Steps 750
+[sentinel4] NON Count is 0
+[sentinel4] Contest started!
+[sentinel4] Edges 815
+[sentinel4] Edges 815
+[sentinel4] Vertices 300
+[sentinel4] Steps 750
+[sentinel4] Vertices 300
+[sentinel4] Steps 750
+[sentinel5] NON Count is 0
+[sentinel5] Contest started!
+[sentinel5] Edges 815
+[sentinel5] Edges 815
+[sentinel5] Vertices 300
+[sentinel5] Steps 750
+[sentinel5] Vertices 300
+[sentinel5] Steps 750
+[inspector1] NON Count is 0
+[inspector1] Contest started!
+[sentinel6] NON Count is 0
+[inspector1] Edges 815
+[sentinel6] Contest started!
+[inspector1] Edges 815
+[inspector1] Vertices 300
+[sentinel6] Edges 815
+[inspector1] Steps 750
+[sentinel6] Edges 815
+[inspector1] Vertices 300
+[inspector1] Steps 750
+[sentinel6] Vertices 300
+[sentinel6] Steps 750
+[sentinel6] Vertices 300
+[sentinel6] Steps 750
+[inspector2] NON Count is 0
+[inspector2] Contest started!
+[inspector2] Edges 815
+[inspector2] Edges 815
+[inspector2] Vertices 300
+[inspector2] Steps 750
+[inspector2] Vertices 300
+[inspector2] Steps 750
+[inspector3] NON Count is 0
+[inspector3] Contest started!
+[inspector3] Edges 815
+[inspector3] Edges 815
+[inspector3] Vertices 300
+[inspector3] Steps 750
+[inspector3] Vertices 300
+[inspector3] Steps 750
+[inspector5] NON Count is 0
+[inspector4] NON Count is 0
+[inspector5] Contest started!
+[inspector4] Contest started!
+[inspector5] Edges 815
+[inspector4] Edges 815
+[inspector5] Edges 815
+[inspector4] Edges 815
+[inspector5] Vertices 300
+[inspector4] Vertices 300
+[inspector6] NON Count is 0
+[inspector5] Steps 750
+[inspector4] Steps 750
+[inspector5] Vertices 300
+[inspector4] Vertices 300
+[inspector6] Contest started!
+[inspector5] Steps 750
+[inspector4] Steps 750
+[inspector6] Edges 815
+[inspector6] Edges 815
+[inspector6] Vertices 300
+[inspector6] Steps 750
+[inspector6] Vertices 300
+[inspector6] Steps 750
+[explorer1] Current step is 0
+[explorer2] Current step is 0
+[repairer3] Current step is 0
+[repairer1] Current step is 0
+[repairer6] Current step is 0
+[saboteur1] Current step is 0
+[explorer4] Current step is 0
+[saboteur2] Current step is 0
+[explorer5] Current step is 0
+[explorer6] Current step is 0
+[repairer4] Current step is 0
+[saboteur4] Current step is 0
+[repairer5] Current step is 0
+[explorer3] Current step is 0
+[repairer2] Current step is 0
+[saboteur3] Current step is 0
+[explorer1] I can't wait anymore!
+[explorer1] I am at v201 (35/35), my health is 4 the goal for step 0 is probe and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[explorer1] Probing my location
+[sentinel5] Current step is 0
+[explorer2] I can't wait anymore!
+[explorer2] I am at v291 (35/35), my health is 4 the goal for step 0 is probe and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[explorer2] Probing my location
+[sentinel3] Current step is 0
+[sentinel2] Current step is 0
+[sentinel4] Current step is 0
+[sentinel6] Current step is 0
+[sentinel1] Current step is 0
+[repairer1] I am at v4 (25/25), my health is 6 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[repairer1] Surveying
+[repairer3] I am at v41 (25/25), my health is 6 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[repairer3] Surveying
+[inspector3] Current step is 0
+[inspector5] Current step is 0
+[inspector4] Current step is 0
+[repairer6] I am at v204 (25/25), my health is 6 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[repairer6] Surveying
+[inspector6] Current step is 0
+[inspector1] Current step is 0
+[saboteur1] I can't wait anymore!
+[explorer4] I can't wait anymore!
+[explorer4] I am at v67 (35/35), my health is 4 the goal for step 0 is probe and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[explorer4] Probing my location
+[saboteur2] I can't wait anymore!
+[saboteur2] I am at v217 (20/20), my health is 3 the goal for step 0 is attack(a12) and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[saboteur2] I am going to attack an entity and its name is a12
+[inspector2] Current step is 0
+[explorer5] I can't wait anymore!
+[explorer6] I can't wait anymore!
+[explorer5] I am at v235 (35/35), my health is 4 the goal for step 0 is probe and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[explorer5] Probing my location
+[explorer6] I am at v107 (35/35), my health is 4 the goal for step 0 is probe and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[explorer6] Probing my location
+[repairer4] I am at v54 (25/25), my health is 6 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[repairer4] Surveying
+[repairer5] I am at v167 (25/25), my health is 6 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[repairer5] Surveying
+[saboteur4] I can't wait anymore!
+[repairer2] I am at v274 (25/25), my health is 6 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[saboteur4] I am at v68 (20/20), my health is 3 the goal for step 0 is attack(a15) and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[repairer2] Surveying
+[saboteur4] I am going to attack an entity and its name is a15
+[explorer3] I can't wait anymore!
+[explorer3] I am at v135 (35/35), my health is 4 the goal for step 0 is probe and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[explorer3] Probing my location
+[saboteur3] I can't wait anymore!
+[saboteur3] I am at v242 (20/20), my health is 3 the goal for step 0 is attack(a16) and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[saboteur3] I am going to attack an entity and its name is a16
+[sentinel5] I am at v291 (30/30), my health is 1 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[sentinel5] Surveying
+[saboteur1] I am at v291 (20/20), my health is 3 the goal for step 0 is goto(v187) and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[sentinel3] I am at v39 (30/30), my health is 1 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[saboteur1] I'm enabled. My current vertex is v291 and I'm going to' v187
+[sentinel3] Surveying
+[sentinel2] I am at v192 (30/30), my health is 1 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[sentinel2] Surveying
+[sentinel4] I am at v72 (30/30), my health is 1 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[sentinel4] Surveying
+[sentinel6] I am at v272 (30/30), my health is 1 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[sentinel1] I am at v104 (30/30), my health is 1 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[sentinel6] Surveying
+[sentinel1] Surveying
+[inspector3] I am at v113 (25/25), my health is 6 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[inspector5] I am at v253 (25/25), my health is 6 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[inspector3] Surveying
+[inspector5] Surveying
+[inspector4] I am at v228 (25/25), my health is 6 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[inspector4] Surveying
+[inspector6] I am at v180 (25/25), my health is 6 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[inspector6] Surveying
+[inspector1] I am at v259 (25/25), my health is 6 the goal for step 0 is survey and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[inspector1] Surveying
+[inspector2] I am at v172 (25/25), my health is 6 the goal for step 0 is goto(v247) and I have 0 of money. My last result was successful. My last action was skip. The score is 0 and my last score was 0 with zones 0 and my zone is 0
+[inspector2] I'm enabled. My current vertex is v172 and I'm going to' v247
+[explorer1] Vertex probed: v201 with value 5
+[explorer1] Current step is 1
+[explorer1] Sending probed vertex in broadcast v201 5
+[explorer3] Vertex probed: v235 with value 1
+[explorer3] Vertex probed: v135 with value 1
+[explorer3] Current step is 1
+[explorer3] Sending probed vertex in broadcast v235 1
+[explorer3] Sending probed vertex in broadcast v135 1
+[explorer5] Vertex probed: v235 with value 1
+[explorer5] Vertex probed: v135 with value 1
+[explorer5] Current step is 1
+[explorer5] Sending probed vertex in broadcast v235 1
+[explorer5] Sending probed vertex in broadcast v135 1
+[explorer4] Vertex probed: v67 with value 1
+[explorer4] Current step is 1
+[explorer4] Sending probed vertex in broadcast v67 1
+[repairer2] Current step is 1
+[repairer1] Current step is 1
+[explorer2] Vertex probed: v291 with value 1
+[explorer2] Vertex probed: v107 with value 1
+[explorer2] Current step is 1
+[explorer6] Vertex probed: v291 with value 1
+[explorer6] Vertex probed: v107 with value 1
+[explorer6] Current step is 1
+[explorer2] Sending probed vertex in broadcast v291 1
+[explorer2] Sending probed vertex in broadcast v107 1
+[explorer6] Sending probed vertex in broadcast v291 1
+[explorer6] Sending probed vertex in broadcast v107 1
+[repairer4] Current step is 1
+[repairer3] Current step is 1
+[saboteur2] Current step is 1
+[repairer5] Current step is 1
+[repairer6] Current step is 1
+[saboteur1] Current step is 1
+[saboteur4] Current step is 1
+[inspector1] Current step is 1
+[sentinel6] Current step is 1
+[inspector3] Current step is 1
+[inspector2] Current step is 1
+[repairer2] I am at v274 (24/25), my health is 6 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 3
+[repairer2] I have chose v205
+[repairer2] I'm enabled. My current vertex is v274 and I'm going to' v205
+[inspector6] Current step is 1
+[inspector4] Current step is 1
+[explorer1] I am at v201 (35/35), my health is 4 the goal for step 1 is goto(v81) and I have 14 of money. My last result was successful. My last action was probe. The score is 42 and my last score was 42 with zones 28 and my zone is 0
+[explorer1] I'm enabled. My current vertex is v201 and I'm going to' v81
+[sentinel3] Current step is 1
+[explorer2] I am at v291 (35/35), my health is 4 the goal for step 1 is goto(v89) and I have 14 of money. My last result was successful. My last action was probe. The score is 42 and my last score was 42 with zones 28 and my zone is 10
+[explorer2] I'm enabled. My current vertex is v291 and I'm going to' v89
+[repairer1] I am at v4 (24/25), my health is 6 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 4
+[repairer1] I have chose v132
+[repairer1] I'm enabled. My current vertex is v4 and I'm going to' v132
+[inspector5] Current step is 1
+[sentinel5] Current step is 1
+[sentinel4] Current step is 1
+[repairer4] I am at v54 (24/25), my health is 6 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 4
+[repairer4] I have chose v146
+[repairer4] I'm enabled. My current vertex is v54 and I'm going to' v146
+[explorer3] I am at v135 (35/35), my health is 4 the goal for step 1 is goto(v212) and I have 14 of money. My last result was successful. My last action was probe. The score is 42 and my last score was 42 with zones 28 and my zone is 3
+[explorer3] I'm enabled. My current vertex is v135 and I'm going to' v212
+[repairer3] I am at v41 (24/25), my health is 6 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 4
+[repairer3] I have chose v146
+[repairer3] I'm enabled. My current vertex is v41 and I'm going to' v146
+[sentinel1] Current step is 1
+[sentinel2] Current step is 1
+[saboteur3] Current step is 1
+[repairer6] I am at v204 (24/25), my health is 6 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 0
+[repairer6] I have chose v250
+[repairer6] I'm enabled. My current vertex is v204 and I'm going to' v250
+[explorer4] I am at v67 (35/35), my health is 4 the goal for step 1 is goto(v10) and I have 14 of money. My last result was successful. My last action was probe. The score is 42 and my last score was 42 with zones 28 and my zone is 4
+[explorer4] I'm enabled. My current vertex is v67 and I'm going to' v10
+[saboteur1] I am at v187 (13/20), my health is 3 the goal for step 1 is attack(a10) and I have 14 of money. My last result was successful. My last action was goto. The score is 42 and my last score was 42 with zones 28 and my zone is 0
+[saboteur1] I am going to attack an entity and its name is a10
+[inspector1] I am at v259 (24/25), my health is 6 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 0
+[inspector1] I have chose v76
+[inspector1] I'm enabled. My current vertex is v259 and I'm going to' v76
+[repairer5] I am at v167 (24/25), my health is 6 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 3
+[sentinel6] I am at v272 (29/30), my health is 1 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 0
+[sentinel6] I have chose v245
+[repairer5] I have chose v12
+[sentinel6] I'm enabled. My current vertex is v272 and I'm going to' v245
+[repairer5] I'm enabled. My current vertex is v167 and I'm going to' v12
+[inspector3] I am at v113 (24/25), my health is 6 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 0
+[inspector3] I have chose v257
+[inspector3] I'm enabled. My current vertex is v113 and I'm going to' v257
+[inspector2] I am at v247 (21/25), my health is 6 the goal for step 1 is inspect and I have 14 of money. My last result was successful. My last action was goto. The score is 42 and my last score was 42 with zones 28 and my zone is 0
+[inspector2] Inspecting my location
+[saboteur2] I am at v217 (18/20), my health is 3 the goal for step 1 is attack(a12) and I have 14 of money. My last result was successful. My last action was attack. The score is 42 and my last score was 42 with zones 28 and my zone is 0
+[saboteur2] I am going to attack an entity and its name is a12
+[explorer5] I am at v235 (35/35), my health is 4 the goal for step 1 is goto(v295) and I have 14 of money. My last result was successful. My last action was probe. The score is 42 and my last score was 42 with zones 28 and my zone is 3
+[explorer5] I'm enabled. My current vertex is v235 and I'm going to' v295
+[inspector6] I am at v180 (24/25), my health is 6 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 0
+[inspector6] I have chose v152
+[inspector6] I'm enabled. My current vertex is v180 and I'm going to' v152
+[inspector4] I am at v228 (25/25), my health is 6 the goal for step 1 is survey and I have 14 of money. My last result was failed_random. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 0
+[inspector4] Surveying
+[sentinel3] I am at v39 (29/30), my health is 1 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 4
+[sentinel3] I have chose v186
+[sentinel3] I'm enabled. My current vertex is v39 and I'm going to' v186
+[explorer6] I am at v107 (35/35), my health is 4 the goal for step 1 is goto(v253) and I have 14 of money. My last result was successful. My last action was probe. The score is 42 and my last score was 42 with zones 28 and my zone is 10
+[explorer6] I'm enabled. My current vertex is v107 and I'm going to' v253
+[inspector5] I am at v253 (24/25), my health is 6 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 10
+[inspector5] I have chose v283
+[sentinel4] I am at v72 (29/30), my health is 1 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 0
+[inspector5] I'm enabled. My current vertex is v253 and I'm going to' v283
+[sentinel4] I have chose v77
+[sentinel4] I'm enabled. My current vertex is v72 and I'm going to' v77
+[sentinel5] I am at v291 (29/30), my health is 1 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 10
+[sentinel1] I am at v104 (29/30), my health is 1 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 0
+[sentinel5] I have chose v19
+[sentinel1] I have chose v196
+[sentinel5] I'm enabled. My current vertex is v291 and I'm going to' v19
+[sentinel1] I'm enabled. My current vertex is v104 and I'm going to' v196
+[sentinel2] I am at v192 (29/30), my health is 1 the goal for step 1 is random_walk and I have 14 of money. My last result was successful. My last action was survey. The score is 42 and my last score was 42 with zones 28 and my zone is 4
+[sentinel2] I have chose v288
+[sentinel2] I'm enabled. My current vertex is v192 and I'm going to' v288
+[saboteur3] I am at v242 (18/20), my health is 3 the goal for step 1 is gotoPath([v242,v19,v298,v88]) and I have 14 of money. My last result was successful. My last action was attack. The score is 42 and my last score was 42 with zones 28 and my zone is 10
+[saboteur3] My next step in the path is v19
+[saboteur3] I'm enabled. My current vertex is v242 and I'm going to' v19
+[saboteur4] I am at v68 (18/20), my health is 3 the goal for step 1 is goto(v206) and I have 14 of money. My last result was successful. My last action was attack. The score is 42 and my last score was 42 with zones 28 and my zone is 4
+[saboteur4] I'm enabled. My current vertex is v68 and I'm going to' v206
+[explorer1] Current step is 2
+[explorer3] Current step is 2
+[explorer2] Current step is 2
+[explorer4] Current step is 2
+[explorer5] Current step is 2
+[repairer1] Current step is 2
+[explorer6] Current step is 2
+[explorer1] I am at v81 (29/35), my health is 4 the goal for step 2 is probe and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 0
+[explorer1] Probing my location
+[repairer2] Current step is 2
+[repairer4] Current step is 2
+[repairer3] Current step is 2
+[repairer5] Current step is 2
+[saboteur1] Current step is 2
+[explorer2] I am at v89 (30/35), my health is 4 the goal for step 2 is probe and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 8
+[explorer2] Probing my location
+[repairer6] Current step is 2
+[saboteur4] Current step is 2
+[sentinel3] Current step is 2
+[inspector6] Current step is 2
+[sentinel6] Current step is 2
+[explorer3] I am at v212 (34/35), my health is 4 the goal for step 2 is probe and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 3
+[explorer3] Probing my location
+[inspector2] Current step is 2
+[inspector2] Sending inspected entity in broadcast a1 Explorer
+[coach] Count is 1
+[explorer5] Count is 1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent repairer3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent saboteur3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent repairer2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent inspector4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent repairer6
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent saboteur2
+[explorer3] Count is 1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent saboteur1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent inspector3
+[explorer2] Count is 1
+[inspector3] Current step is 2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent inspector2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent repairer1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent sentinel3
+[inspector2] The entity a1 was inspected Energy (35,35) Health (4,4) Strength 0
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent sentinel6
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent repairer5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent sentinel2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent saboteur4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent inspector6
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent sentinel1
+[explorer4] Count is 1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent repairer4
+[explorer1] Count is 1
+[repairer1] I am at v132 (19/25), my health is 6 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 6
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent inspector5
+[repairer1] Surveying
+[explorer4] I am at v10 (29/35), my health is 4 the goal for step 2 is probe and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 6
+[explorer4] Probing my location
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent inspector1
+[inspector1] Current step is 2
+[repairer2] I am at v205 (20/25), my health is 6 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 3
+[sentinel2] Current step is 2
+[saboteur2] Current step is 2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent sentinel4
+[repairer2] Surveying
+[sentinel4] Current step is 2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-474-inspectArtifact for agent sentinel5
+[sentinel5] Current step is 2
+[repairer4] I am at v146 (16/25), my health is 6 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 0
+[repairer4] Surveying
+[repairer3] I am at v146 (15/25), my health is 6 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 0
+[repairer3] Surveying
+[repairer5] I am at v12 (18/25), my health is 6 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 3
+[repairer5] Surveying
+[inspector5] Current step is 2
+[saboteur3] Current step is 2
+[sentinel1] Current step is 2
+[explorer6] Count is 1
+[saboteur1] I am at v187 (11/20), my health is 3 the goal for step 2 is attack(a10) and I have 16 of money. My last result was successful. My last action was attack. The score is 90 and my last score was 48 with zones 32 and my zone is 0
+[saboteur1] I am going to attack an entity and its name is a10
+[repairer6] I am at v250 (23/25), my health is 6 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 6
+[repairer6] Surveying
+[inspector4] Current step is 2
+[explorer5] I am at v295 (28/35), my health is 4 the goal for step 2 is probe and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 3
+[explorer5] Probing my location
+[sentinel3] I am at v186 (26/30), my health is 1 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 6
+[sentinel3] Surveying
+[inspector6] I am at v152 (19/25), my health is 6 the goal for step 2 is goto(v206) and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 0
+[inspector6] I'm enabled. My current vertex is v152 and I'm going to' v206
+[sentinel6] I am at v245 (28/30), my health is 1 the goal for step 2 is random_walk and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 0
+[sentinel6] I have chose v29
+[sentinel6] I'm enabled. My current vertex is v245 and I'm going to' v29
+[inspector2] I am at v247 (19/25), my health is 6 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was inspect. The score is 90 and my last score was 48 with zones 32 and my zone is 0
+[inspector2] Surveying
+[inspector3] I am at v257 (21/25), my health is 6 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 6
+[inspector3] Surveying
+[explorer6] I am at v253 (34/35), my health is 4 the goal for step 2 is probe and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 8
+[explorer6] Probing my location
+[inspector1] I am at v76 (23/25), my health is 6 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 0
+[sentinel2] I am at v288 (26/30), my health is 1 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 6
+[inspector1] Surveying
+[sentinel2] Surveying
+[sentinel4] I am at v77 (22/30), my health is 1 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 0
+[sentinel4] Surveying
+[sentinel5] I am at v19 (26/30), my health is 1 the goal for step 2 is random_walk and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 8
+[sentinel5] I have chose v298
+[sentinel5] I'm enabled. My current vertex is v19 and I'm going to' v298
+[saboteur2] I am at v217 (16/20), my health is 3 the goal for step 2 is gotoPath([v217,v28,v132,v192,v126,v173]) and I have 16 of money. My last result was successful. My last action was attack. The score is 90 and my last score was 48 with zones 32 and my zone is 6
+[saboteur2] My next step in the path is v28
+[saboteur2] I'm enabled. My current vertex is v217 and I'm going to' v28
+[sentinel1] I am at v196 (26/30), my health is 1 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 6
+[sentinel1] Surveying
+[saboteur3] I am at v19 (13/20), my health is 3 the goal for step 2 is gotoPath([v19,v298,v88]) and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 8
+[saboteur3] My next step in the path is v298
+[saboteur3] I'm enabled. My current vertex is v19 and I'm going to' v298
+[inspector5] I am at v283 (15/25), my health is 6 the goal for step 2 is survey and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 8
+[inspector5] Surveying
+[inspector4] I am at v228 (24/25), my health is 6 the goal for step 2 is random_walk and I have 16 of money. My last result was successful. My last action was survey. The score is 90 and my last score was 48 with zones 32 and my zone is 6
+[inspector4] I have chose v17
+[inspector4] I'm enabled. My current vertex is v228 and I'm going to' v17
+[saboteur4] I am at v206 (13/20), my health is 3 the goal for step 2 is attack(a2) and I have 16 of money. My last result was successful. My last action was goto. The score is 90 and my last score was 48 with zones 32 and my zone is 0
+[saboteur4] I am going to attack an entity and its name is a2
+[explorer1] Vertex probed: v81 with value 4
+[explorer1] Current step is 3
+[explorer1] Sending probed vertex in broadcast v81 4
+[explorer2] Vertex probed: v89 with value 1
+[explorer2] Vertex probed: v253 with value 1
+[explorer2] Current step is 3
+[explorer2] Sending probed vertex in broadcast v89 1
+[explorer2] Sending probed vertex in broadcast v253 1
+[explorer3] Vertex probed: v295 with value 1
+[explorer3] Vertex probed: v212 with value 1
+[explorer3] Current step is 3
+[explorer3] Sending probed vertex in broadcast v295 1
+[explorer3] Sending probed vertex in broadcast v212 1
+[explorer4] Vertex probed: v10 with value 1
+[explorer4] Current step is 3
+[explorer4] Sending probed vertex in broadcast v10 1
+[explorer5] Vertex probed: v295 with value 1
+[explorer5] Vertex probed: v212 with value 1
+[explorer5] Current step is 3
+[explorer5] Sending probed vertex in broadcast v295 1
+[explorer5] Sending probed vertex in broadcast v212 1
+[explorer6] Vertex probed: v89 with value 1
+[explorer6] Vertex probed: v253 with value 1
+[explorer6] Current step is 3
+[explorer6] Sending probed vertex in broadcast v89 1
+[explorer6] Sending probed vertex in broadcast v253 1
+[repairer2] Current step is 3
+[repairer3] Current step is 3
+[repairer5] Current step is 3
+[repairer1] Current step is 3
+[repairer4] Current step is 3
+[saboteur3] Current step is 3
+[saboteur1] Current step is 3
+[saboteur2] Current step is 3
+[saboteur4] Current step is 3
+[repairer6] Current step is 3
+[inspector1] Current step is 3
+[sentinel4] Current step is 3
+[explorer1] I am at v81 (29/35), my health is 4 the goal for step 3 is goto(v275) and I have 18 of money. My last result was successful. My last action was probe. The score is 141 and my last score was 51 with zones 33 and my zone is 0
+[explorer1] I'm enabled. My current vertex is v81 and I'm going to' v275
+[sentinel2] Current step is 3
+[inspector5] Current step is 3
+[inspector6] Current step is 3
+[sentinel6] Current step is 3
+[inspector4] Current step is 3
+[sentinel3] Current step is 3
+[explorer2] I am at v89 (30/35), my health is 4 the goal for step 3 is goto(v134) and I have 18 of money. My last result was successful. My last action was probe. The score is 141 and my last score was 51 with zones 33 and my zone is 10
+[inspector2] Current step is 3
+[explorer2] I'm enabled. My current vertex is v89 and I'm going to' v134
+[inspector3] Current step is 3
+[sentinel5] Current step is 3
+[sentinel1] Current step is 3
+[repairer2] I am at v205 (19/25), my health is 6 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 3
+[repairer3] I am at v146 (14/25), my health is 6 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 0
+[repairer2] I have chose v131
+[repairer3] I have chose v197
+[repairer2] I'm enabled. My current vertex is v205 and I'm going to' v131
+[repairer3] I'm enabled. My current vertex is v146 and I'm going to' v197
+[repairer5] I am at v12 (17/25), my health is 6 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 3
+[repairer5] I have chose v103
+[repairer5] I'm enabled. My current vertex is v12 and I'm going to' v103
+[repairer1] I am at v132 (18/25), my health is 6 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 7
+[repairer1] I have chose v174
+[repairer1] I'm enabled. My current vertex is v132 and I'm going to' v174
+[repairer4] I am at v146 (15/25), my health is 6 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 0
+[repairer4] I have chose v177
+[repairer4] I'm enabled. My current vertex is v146 and I'm going to' v177
+[explorer3] I am at v212 (34/35), my health is 4 the goal for step 3 is goto(v63) and I have 18 of money. My last result was successful. My last action was probe. The score is 141 and my last score was 51 with zones 33 and my zone is 3
+[explorer3] I'm enabled. My current vertex is v212 and I'm going to' v63
+[saboteur1] I am at v187 (9/20), my health is 3 the goal for step 3 is goto(v156) and I have 18 of money. My last result was successful. My last action was attack. The score is 141 and my last score was 51 with zones 33 and my zone is 10
+[saboteur1] I'm enabled. My current energy is 9 but I need 10
+[saboteur1] My energy is 9, recharging
+[explorer4] I am at v10 (29/35), my health is 4 the goal for step 3 is goto(v39) and I have 18 of money. My last result was successful. My last action was probe. The score is 141 and my last score was 51 with zones 33 and my zone is 6
+[explorer4] I'm enabled. My current vertex is v10 and I'm going to' v39
+[repairer6] I am at v250 (22/25), my health is 6 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 4
+[repairer6] I have chose v105
+[repairer6] I'm enabled. My current vertex is v250 and I'm going to' v105
+[explorer5] I am at v295 (28/35), my health is 4 the goal for step 3 is goto(v220) and I have 18 of money. My last result was successful. My last action was probe. The score is 141 and my last score was 51 with zones 33 and my zone is 3
+[explorer5] I'm enabled. My current vertex is v295 and I'm going to' v220
+[inspector1] I am at v76 (22/25), my health is 6 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 0
+[inspector1] I have chose v69
+[inspector1] I'm enabled. My current vertex is v76 and I'm going to' v69
+[sentinel4] I am at v77 (21/30), my health is 1 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 0
+[sentinel4] I have chose v225
+[sentinel4] I'm enabled. My current vertex is v77 and I'm going to' v225
+[sentinel2] I am at v288 (25/30), my health is 1 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 7
+[sentinel2] I have chose v126
+[sentinel2] I'm enabled. My current vertex is v288 and I'm going to' v126
+[inspector5] I am at v283 (14/25), my health is 6 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 10
+[inspector5] I have chose v190
+[inspector5] I'm enabled. My current vertex is v283 and I'm going to' v190
+[inspector6] I am at v206 (14/25), my health is 6 the goal for step 3 is inspect and I have 18 of money. My last result was successful. My last action was goto. The score is 141 and my last score was 51 with zones 33 and my zone is 0
+[inspector6] Inspecting my location
+[sentinel6] I am at v29 (26/30), my health is 1 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was goto. The score is 141 and my last score was 51 with zones 33 and my zone is 0
+[sentinel6] I have chose v3
+[sentinel6] I'm enabled. My current vertex is v29 and I'm going to' v3
+[inspector4] I am at v17 (15/25), my health is 6 the goal for step 3 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 141 and my last score was 51 with zones 33 and my zone is 0
+[inspector4] Surveying
+[sentinel3] I am at v186 (25/30), my health is 1 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 6
+[sentinel3] I have chose v133
+[sentinel3] I'm enabled. My current vertex is v186 and I'm going to' v133
+[inspector2] I am at v247 (18/25), my health is 6 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 0
+[inspector2] I have chose v248
+[inspector2] I'm enabled. My current vertex is v247 and I'm going to' v248
+[saboteur2] I am at v28 (10/20), my health is 3 the goal for step 3 is gotoPath([v28,v132,v288,v126,v173]) and I have 18 of money. My last result was successful. My last action was goto. The score is 141 and my last score was 51 with zones 33 and my zone is 7
+[saboteur2] My next step in the path is v132
+[saboteur2] I'm enabled. My current vertex is v28 and I'm going to' v132
+[inspector3] I am at v257 (20/25), my health is 6 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 6
+[inspector3] I have chose v133
+[inspector3] I'm enabled. My current vertex is v257 and I'm going to' v133
+[sentinel5] I am at v298 (23/30), my health is 1 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was goto. The score is 141 and my last score was 51 with zones 33 and my zone is 10
+[explorer6] I am at v253 (34/35), my health is 4 the goal for step 3 is goto(v283) and I have 18 of money. My last result was successful. My last action was probe. The score is 141 and my last score was 51 with zones 33 and my zone is 10
+[sentinel5] I have chose v88
+[explorer6] I'm enabled. My current vertex is v253 and I'm going to' v283
+[sentinel5] I'm enabled. My current vertex is v298 and I'm going to' v88
+[sentinel1] I am at v196 (25/30), my health is 1 the goal for step 3 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 141 and my last score was 51 with zones 33 and my zone is 4
+[sentinel1] I have chose v258
+[sentinel1] I'm enabled. My current vertex is v196 and I'm going to' v258
+[saboteur3] I am at v298 (10/20), my health is 3 the goal for step 3 is goto(v88) and I have 18 of money. My last result was successful. My last action was goto. The score is 141 and my last score was 51 with zones 33 and my zone is 10
+[saboteur3] I'm enabled. My current vertex is v298 and I'm going to' v88
+[saboteur4] I am at v206 (11/20), my health is 3 the goal for step 3 is attack(a2) and I have 18 of money. My last result was successful. My last action was attack. The score is 141 and my last score was 51 with zones 33 and my zone is 0
+[saboteur4] I am going to attack an entity and its name is a2
+[explorer1] Current step is 4
+[explorer3] Current step is 4
+[repairer2] Current step is 4
+[inspector6] Current step is 4
+[inspector6] Sending inspected entity in broadcast a21 Sentinel
+[inspector6] Sending inspected entity in broadcast a13 Saboteur
+[inspector6] Sending inspected entity in broadcast a2 Explorer
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent inspector6
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent inspector6
+[inspector6] The entity a21 was inspected Energy (30,30) Health (1,1) Strength 0
+[inspector6] The entity a13 was inspected Energy (20,20) Health (3,3) Strength 3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent inspector6
+[inspector6] The entity a2 was inspected Energy (35,35) Health (0,4) Strength 0
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent repairer3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent repairer3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent repairer3
+[explorer5] Count is 2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent repairer5
+[explorer5] Count is 3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent repairer5
+[explorer5] Count is 4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent repairer5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent inspector3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent inspector3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent inspector3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent sentinel5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent sentinel5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent sentinel5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent sentinel4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent sentinel4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent sentinel4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent sentinel1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent sentinel1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent sentinel1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent saboteur3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent saboteur3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent saboteur3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent saboteur2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent saboteur2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent saboteur2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent repairer2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent repairer2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent repairer2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent inspector5
+[repairer5] Current step is 4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent inspector5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent inspector5
+[inspector5] Current step is 4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent inspector1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent inspector1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent inspector1
+[inspector1] Current step is 4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent sentinel2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent sentinel2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent sentinel2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent repairer4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent repairer4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent repairer4
+[repairer4] Current step is 4
+[sentinel4] Current step is 4
+[sentinel2] Current step is 4
+[sentinel1] Current step is 4
+[saboteur3] Current step is 4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent repairer1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent repairer1
+[explorer1] Count is 2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent sentinel3
+[explorer1] Count is 3
+[explorer1] Count is 4
+[explorer1] I am at v275 (21/35), my health is 4 the goal for step 4 is probe and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 0
+[explorer1] Probing my location
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent repairer1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent sentinel6
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent repairer6
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent sentinel6
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent repairer6
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent sentinel6
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent repairer6
+[sentinel6] Current step is 4
+[repairer6] Current step is 4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent sentinel3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent sentinel3
+[sentinel3] Current step is 4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent inspector2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent saboteur4
+[explorer1] Synchronizing...
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent saboteur4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent saboteur1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent saboteur4
+[saboteur4] Current step is 4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent saboteur1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent saboteur1
+[saboteur1] Current step is 4
+[repairer2] I am at v131 (17/25), my health is 6 the goal for step 4 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 0
+[repairer2] Surveying
+[explorer6] Count is 2
+[explorer6] Current step is 4
+[explorer6] Count is 3
+[explorer6] Count is 4
+[explorer3] Count is 2
+[explorer3] Count is 3
+[explorer3] Count is 4
+[sentinel5] Current step is 4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-476-inspectArtifact for agent inspector4
+[inspector4] Current step is 4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent inspector4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent inspector4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-478-inspectArtifact for agent inspector2
+[inspector3] Current step is 4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-480-inspectArtifact for agent inspector2
+[inspector2] Current step is 4
+[coach] Count is 2
+[coach] Count is 3
+[coach] Count is 4
+[explorer4] Count is 2
+[explorer2] Count is 2
+[explorer4] Current step is 4
+[explorer2] Current step is 4
+[explorer4] Count is 3
+[explorer2] Count is 3
+[explorer4] Count is 4
+[explorer2] Count is 4
+[repairer2] Synchronizing...
+[explorer5] Current step is 4
+[saboteur2] Current step is 4
+[repairer3] Current step is 4
+[repairer1] Current step is 4
+[inspector6] I am at v206 (12/25), my health is 6 the goal for step 4 is goto(v68) and I have 18 of money. My last result was successful. My last action was inspect. The score is 193 and my last score was 52 with zones 34 and my zone is 0
+[inspector6] I'm enabled. My current vertex is v206 and I'm going to' v68
+[inspector6] Synchronizing...
+[inspector5] I am at v190 (7/25), my health is 6 the goal for step 4 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 3
+[inspector5] Surveying
+[inspector5] Synchronizing...
+[inspector1] I am at v69 (15/25), my health is 6 the goal for step 4 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 0
+[inspector1] Surveying
+[repairer5] I am at v103 (11/25), my health is 6 the goal for step 4 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 0
+[repairer5] Surveying
+[repairer4] I am at v177 (10/25), my health is 6 the goal for step 4 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 3
+[repairer4] Surveying
+[inspector1] Synchronizing...
+[repairer5] Synchronizing...
+[repairer4] Synchronizing...
+[sentinel4] I am at v225 (12/30), my health is 1 the goal for step 4 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 3
+[sentinel4] Surveying
+[sentinel4] Synchronizing...
+[sentinel2] I am at v126 (23/30), my health is 1 the goal for step 4 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 8
+[sentinel2] Surveying
+[sentinel2] Synchronizing...
+[sentinel1] I am at v258 (21/30), my health is 1 the goal for step 4 is random_walk and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 4
+[sentinel1] I have chose v92
+[sentinel1] I'm enabled. My current vertex is v258 and I'm going to' v92
+[sentinel1] Synchronizing...
+[repairer6] I am at v105 (18/25), my health is 6 the goal for step 4 is random_walk and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 4
+[sentinel6] I am at v3 (20/30), my health is 1 the goal for step 4 is random_walk and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 0
+[repairer6] I have chose v53
+[repairer6] I'm enabled. My current vertex is v105 and I'm going to' v53
+[repairer6] Synchronizing...
+[sentinel6] I have chose v111
+[sentinel6] I'm enabled. My current vertex is v3 and I'm going to' v111
+[sentinel3] I am at v133 (21/30), my health is 1 the goal for step 4 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 3
+[sentinel3] Surveying
+[sentinel6] Synchronizing...
+[saboteur1] I am at v187 (19/20), my health is 3 the goal for step 4 is goto(v156) and I have 18 of money. My last result was successful. My last action was recharge. The score is 193 and my last score was 52 with zones 34 and my zone is 6
+[saboteur1] I'm enabled. My current vertex is v187 and I'm going to' v156
+[sentinel3] Synchronizing...
+[saboteur1] Synchronizing...
+[sentinel5] I am at v88 (19/30), my health is 1 the goal for step 4 is random_walk and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 6
+[sentinel5] I have chose v2
+[sentinel5] I'm enabled. My current vertex is v88 and I'm going to' v2
+[inspector4] I am at v17 (14/25), my health is 6 the goal for step 4 is random_walk and I have 18 of money. My last result was successful. My last action was survey. The score is 193 and my last score was 52 with zones 34 and my zone is 0
+[inspector3] I am at v133 (16/25), my health is 6 the goal for step 4 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 3
+[inspector3] Surveying
+[inspector4] I have chose v268
+[inspector4] I'm enabled. My current vertex is v17 and I'm going to' v268
+[inspector2] I am at v248 (13/25), my health is 6 the goal for step 4 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 3
+[inspector2] Surveying
+[inspector2] Synchronizing...
+[inspector3] Synchronizing...
+[inspector4] Synchronizing...
+[sentinel5] Synchronizing...
+[explorer2] I am at v134 (26/35), my health is 4 the goal for step 4 is probe and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 6
+[explorer2] Probing my location
+[explorer3] I am at v63 (30/35), my health is 4 the goal for step 4 is probe and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 4
+[explorer3] Probing my location
+[explorer2] Synchronizing...
+[explorer3] Synchronizing...
+[saboteur2] I am at v132 (6/20), my health is 3 the goal for step 4 is gotoPath([v132,v288,v126,v173]) and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 8
+[saboteur2] My next step in the path is v288
+[saboteur2] I'm enabled. My current vertex is v132 and I'm going to' v288
+[repairer3] I am at v197 (6/25), my health is 6 the goal for step 4 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 3
+[repairer3] Surveying
+[saboteur2] Synchronizing...
+[repairer3] Synchronizing...
+[repairer1] I am at v174 (17/25), my health is 6 the goal for step 4 is survey and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 8
+[repairer1] Surveying
+[repairer1] Synchronizing...
+[saboteur3] I am at v88 (6/20), my health is 3 the goal for step 4 is attack(a28) and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 6
+[saboteur3] I am going to attack an entity and its name is a28
+[saboteur3] Synchronizing...
+[saboteur4] I am at v206 (9/20), my health is 3 the goal for step 4 is attack(a13) and I have 18 of money. My last result was successful. My last action was attack. The score is 193 and my last score was 52 with zones 34 and my zone is 0
+[saboteur4] I am going to attack an entity and its name is a13
+[saboteur4] Synchronizing...
+[explorer4] I am at v39 (25/35), my health is 4 the goal for step 4 is probe and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 3
+[explorer4] Probing my location
+[explorer5] I am at v220 (25/35), my health is 4 the goal for step 4 is probe and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 4
+[explorer5] Probing my location
+[explorer4] Synchronizing...
+[explorer5] Synchronizing...
+[explorer6] I am at v283 (25/35), my health is 4 the goal for step 4 is probe and I have 18 of money. My last result was successful. My last action was goto. The score is 193 and my last score was 52 with zones 34 and my zone is 3
+[explorer6] Probing my location
+[explorer6] Synchronizing...
+[explorer1] Vertex probed: v275 with value 5
+[explorer1] Current step is 5
+[explorer1] Sending probed vertex in broadcast v275 5
+[explorer3] Vertex probed: v63 with value 1
+[explorer3] Vertex probed: v220 with value 1
+[explorer2] Vertex probed: v134 with value 1
+[explorer2] Current step is 5
+[explorer2] Sending probed vertex in broadcast v134 1
+[explorer3] Current step is 5
+[explorer3] Sending probed vertex in broadcast v63 1
+[explorer3] Sending probed vertex in broadcast v220 1
+[repairer2] Current step is 5
+[saboteur1] Current step is 5
+[repairer4] Current step is 5
+[repairer5] Current step is 5
+[saboteur4] Current step is 5
+[repairer6] Current step is 5
+[explorer5] Vertex probed: v63 with value 1
+[explorer5] Vertex probed: v220 with value 1
+[explorer5] Current step is 5
+[explorer5] Sending probed vertex in broadcast v63 1
+[explorer5] Sending probed vertex in broadcast v220 1
+[sentinel5] Current step is 5
+[sentinel4] Current step is 5
+[saboteur3] Current step is 5
+[explorer6] Vertex probed: v283 with value 1
+[explorer6] Current step is 5
+[explorer6] Sending probed vertex in broadcast v283 1
+[inspector1] Current step is 5
+[repairer3] Current step is 5
+[sentinel3] Current step is 5
+[inspector3] Current step is 5
+[inspector2] Current step is 5
+[sentinel1] Current step is 5
+[sentinel6] Current step is 5
+[explorer4] Vertex probed: v39 with value 1
+[explorer4] Current step is 5
+[explorer4] Sending probed vertex in broadcast v39 1
+[inspector5] Current step is 5
+[inspector4] Current step is 5
+[repairer1] Current step is 5
+[inspector6] Current step is 5
+[saboteur2] Current step is 5
+[sentinel2] Current step is 5
+[explorer1] I am at v275 (21/35), my health is 4 the goal for step 5 is goto(v149) and I have 20 of money. My last result was successful. My last action was probe. The score is 243 and my last score was 50 with zones 30 and my zone is 0
+[explorer1] I'm enabled. My current vertex is v275 and I'm going to' v149
+[explorer2] I am at v134 (26/35), my health is 4 the goal for step 5 is goto(v187) and I have 20 of money. My last result was successful. My last action was probe. The score is 243 and my last score was 50 with zones 30 and my zone is 0
+[explorer2] I'm enabled. My current vertex is v134 and I'm going to' v187
+[repairer2] I am at v131 (16/25), my health is 6 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was survey. The score is 243 and my last score was 50 with zones 30 and my zone is 0
+[repairer2] I have chose v51
+[repairer2] I'm enabled. My current vertex is v131 and I'm going to' v51
+[saboteur1] I am at v156 (18/20), my health is 3 the goal for step 5 is attack(a9) and I have 20 of money. My last result was successful. My last action was goto. The score is 243 and my last score was 50 with zones 30 and my zone is 0
+[saboteur1] I am going to attack an entity and its name is a9
+[repairer4] I am at v177 (9/25), my health is 6 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was survey. The score is 243 and my last score was 50 with zones 30 and my zone is 5
+[repairer4] I have chose v32
+[repairer4] I'm enabled. My current vertex is v177 and I'm going to' v32
+[repairer5] I am at v103 (10/25), my health is 6 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was survey. The score is 243 and my last score was 50 with zones 30 and my zone is 0
+[repairer5] I have chose v221
+[repairer5] I'm enabled. My current vertex is v103 and I'm going to' v221
+[repairer6] I am at v53 (16/25), my health is 6 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was goto. The score is 243 and my last score was 50 with zones 30 and my zone is 3
+[repairer6] I have chose v154
+[repairer6] I'm enabled. My current vertex is v53 and I'm going to' v154
+[sentinel5] I am at v2 (10/30), my health is 1 the goal for step 5 is survey and I have 20 of money. My last result was successful. My last action was goto. The score is 243 and my last score was 50 with zones 30 and my zone is 0
+[sentinel4] I am at v225 (11/30), my health is 1 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was survey. The score is 243 and my last score was 50 with zones 30 and my zone is 3
+[sentinel5] Surveying
+[sentinel4] I have chose v18
+[sentinel4] I'm enabled. My current vertex is v225 and I'm going to' v18
+[explorer3] I am at v63 (30/35), my health is 4 the goal for step 5 is goto(v262) and I have 20 of money. My last result was successful. My last action was probe. The score is 243 and my last score was 50 with zones 30 and my zone is 4
+[explorer3] I'm enabled. My current vertex is v63 and I'm going to' v262
+[inspector1] I am at v69 (14/25), my health is 6 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was survey. The score is 243 and my last score was 50 with zones 30 and my zone is 0
+[inspector1] I have chose v56
+[inspector1] I'm enabled. My current vertex is v69 and I'm going to' v56
+[repairer3] I am at v197 (5/25), my health is 6 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was survey. The score is 243 and my last score was 50 with zones 30 and my zone is 5
+[repairer3] I have chose v277
+[repairer3] I'm enabled. My current energy is 5 but I need 6
+[repairer3] My energy is 5, recharging
+[sentinel3] I am at v133 (20/30), my health is 1 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was survey. The score is 243 and my last score was 50 with zones 30 and my zone is 3
+[sentinel3] I have chose v101
+[sentinel3] I'm enabled. My current vertex is v133 and I'm going to' v101
+[inspector3] I am at v133 (15/25), my health is 6 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was survey. The score is 243 and my last score was 50 with zones 30 and my zone is 3
+[inspector3] I have chose v101
+[inspector3] I'm enabled. My current vertex is v133 and I'm going to' v101
+[inspector6] I am at v68 (7/25), my health is 6 the goal for step 5 is inspect and I have 20 of money. My last result was successful. My last action was goto. The score is 243 and my last score was 50 with zones 30 and my zone is 5
+[inspector4] I am at v268 (8/25), my health is 6 the goal for step 5 is survey and I have 20 of money. My last result was successful. My last action was goto. The score is 243 and my last score was 50 with zones 30 and my zone is 4
+[inspector6] Inspecting my location
+[inspector4] Surveying
+[sentinel1] I am at v92 (16/30), my health is 1 the goal for step 5 is survey and I have 20 of money. My last result was successful. My last action was goto. The score is 243 and my last score was 50 with zones 30 and my zone is 3
+[sentinel1] Surveying
+[repairer1] I am at v174 (16/25), my health is 6 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was survey. The score is 243 and my last score was 50 with zones 30 and my zone is 8
+[repairer1] I have chose v60
+[repairer1] I'm enabled. My current vertex is v174 and I'm going to' v60
+[inspector5] I am at v190 (6/25), my health is 6 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was survey. The score is 243 and my last score was 50 with zones 30 and my zone is 4
+[saboteur2] I am at v288 (0/20), my health is 3 the goal for step 5 is recharge and I have 20 of money. My last result was successful. My last action was goto. The score is 243 and my last score was 50 with zones 30 and my zone is 8
+[saboteur2] My energy is 0, recharging
+[inspector5] I have chose v108
+[inspector5] I'm enabled. My current vertex is v190 and I'm going to' v108
+[sentinel6] I am at v111 (18/30), my health is 1 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was goto. The score is 243 and my last score was 50 with zones 30 and my zone is 0
+[inspector2] I am at v248 (12/25), my health is 6 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was survey. The score is 243 and my last score was 50 with zones 30 and my zone is 3
+[sentinel6] I have chose v170
+[inspector2] I have chose v21
+[sentinel6] I'm enabled. My current vertex is v111 and I'm going to' v170
+[inspector2] I'm enabled. My current vertex is v248 and I'm going to' v21
+[explorer4] I am at v39 (25/35), my health is 4 the goal for step 5 is goto(v186) and I have 20 of money. My last result was successful. My last action was probe. The score is 243 and my last score was 50 with zones 30 and my zone is 3
+[explorer4] I'm enabled. My current vertex is v39 and I'm going to' v186
+[sentinel2] I am at v126 (22/30), my health is 1 the goal for step 5 is random_walk and I have 20 of money. My last result was successful. My last action was survey. The score is 243 and my last score was 50 with zones 30 and my zone is 8
+[sentinel2] I have chose v173
+[sentinel2] I'm enabled. My current vertex is v126 and I'm going to' v173
+[saboteur3] I am at v88 (4/20), my health is 3 the goal for step 5 is attack(a28) and I have 20 of money. My last result was successful. My last action was attack. The score is 243 and my last score was 50 with zones 30 and my zone is 0
+[saboteur3] I am going to attack an entity and its name is a28
+[explorer5] I am at v220 (25/35), my health is 4 the goal for step 5 is goto(v232) and I have 20 of money. My last result was successful. My last action was probe. The score is 243 and my last score was 50 with zones 30 and my zone is 4
+[saboteur4] I am at v206 (7/20), my health is 3 the goal for step 5 is attack(a21) and I have 20 of money. My last result was successful. My last action was attack. The score is 243 and my last score was 50 with zones 30 and my zone is 0
+[explorer5] I'm enabled. My current vertex is v220 and I'm going to' v232
+[saboteur4] I am going to attack an entity and its name is a21
+[explorer6] I am at v283 (25/35), my health is 4 the goal for step 5 is goto(v251) and I have 20 of money. My last result was successful. My last action was probe. The score is 243 and my last score was 50 with zones 30 and my zone is 4
+[explorer6] I'm enabled. My current vertex is v283 and I'm going to' v251
+[explorer1] Current step is 6
+[explorer2] Current step is 6
+[explorer4] Current step is 6
+[explorer3] Current step is 6
+[repairer4] Current step is 6
+[repairer2] Current step is 6
+[saboteur1] Current step is 6
+[repairer5] Current step is 6
+[explorer6] Current step is 6
+[saboteur3] Current step is 6
+[repairer3] Current step is 6
+[saboteur2] Current step is 6
+[repairer1] Current step is 6
+[explorer5] Current step is 6
+[saboteur4] Current step is 6
+[sentinel5] Current step is 6
+[inspector3] Current step is 6
+[sentinel6] Current step is 6
+[sentinel3] Current step is 6
+[inspector1] Current step is 6
+[sentinel4] Current step is 6
+[inspector2] Current step is 6
+[sentinel1] Current step is 6
+[repairer6] Current step is 6
+[sentinel2] Current step is 6
+[inspector4] Current step is 6
+[inspector5] Current step is 6
+[inspector6] Current step is 6
+[explorer1] I am at v149 (17/35), my health is 4 the goal for step 6 is probe and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 0
+[explorer1] Probing my location
+[inspector6] Sending inspected entity in broadcast a15 Saboteur
+[explorer2] I am at v187 (18/35), my health is 4 the goal for step 6 is probe and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 9
+[explorer2] Probing my location
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent saboteur3
+[explorer1] Count is 5
+[explorer4] Count is 5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent sentinel3
+[explorer3] Count is 5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent saboteur1
+[explorer5] Count is 5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent inspector2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent inspector3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent inspector4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent repairer2
+[coach] Count is 5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent saboteur2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent sentinel1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent repairer1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent sentinel2
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent sentinel6
+[explorer2] Count is 5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent inspector6
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent inspector5
+[inspector6] The entity a15 was inspected Energy (20,20) Health (0,3) Strength 3
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent sentinel4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent inspector1
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent sentinel5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent repairer3
+[explorer6] Count is 5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent repairer4
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent repairer5
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent repairer6
+[CAgentArch] EXCEPTION - processing update obs prop obs-event-482-inspectArtifact for agent saboteur4
+[explorer3] I am at v262 (22/35), my health is 4 the goal for step 6 is probe and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 0
+[explorer3] Probing my location
+[repairer4] I am at v32 (0/25), my health is 6 the goal for step 6 is recharge and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 7
+[repairer4] My energy is 0, recharging
+[saboteur1] I am at v156 (16/20), my health is 3 the goal for step 6 is attack(a9) and I have 22 of money. My last result was successful. My last action was attack. The score is 295 and my last score was 52 with zones 30 and my zone is 0
+[saboteur1] I am going to attack an entity and its name is a9
+[repairer5] I am at v221 (4/25), my health is 6 the goal for step 6 is survey and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 0
+[repairer5] Surveying
+[repairer3] I am at v197 (18/25), my health is 6 the goal for step 6 is random_walk and I have 22 of money. My last result was successful. My last action was recharge. The score is 295 and my last score was 52 with zones 30 and my zone is 7
+[repairer3] I have chose v203
+[repairer3] I'm enabled. My current vertex is v197 and I'm going to' v203
+[repairer1] I am at v60 (10/25), my health is 6 the goal for step 6 is survey and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 0
+[repairer1] Surveying
+[saboteur2] I am at v288 (10/20), my health is 3 the goal for step 6 is gotoPath([v288,v126,v173]) and I have 22 of money. My last result was successful. My last action was recharge. The score is 295 and my last score was 52 with zones 30 and my zone is 0
+[saboteur2] My next step in the path is v126
+[saboteur2] I'm enabled. My current vertex is v288 and I'm going to' v126
+[sentinel5] I am at v2 (9/30), my health is 1 the goal for step 6 is random_walk and I have 22 of money. My last result was successful. My last action was survey. The score is 295 and my last score was 52 with zones 30 and my zone is 3
+[sentinel5] I have chose v7
+[sentinel5] I'm enabled. My current vertex is v2 and I'm going to' v7
+[repairer2] I am at v51 (7/25), my health is 6 the goal for step 6 is survey and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 0
+[repairer2] Surveying
+[inspector3] I am at v101 (6/25), my health is 6 the goal for step 6 is random_walk and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 4
+[inspector3] I have chose v252
+[inspector3] I'm enabled. My current vertex is v101 and I'm going to' v252
+[sentinel6] I am at v170 (14/30), my health is 1 the goal for step 6 is random_walk and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 0
+[sentinel6] I have chose v45
+[sentinel6] I'm enabled. My current vertex is v170 and I'm going to' v45
+[sentinel3] I am at v101 (11/30), my health is 1 the goal for step 6 is random_walk and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 4
+[sentinel3] I have chose v124
+[sentinel3] I'm enabled. My current vertex is v101 and I'm going to' v124
+[inspector1] I am at v56 (6/25), my health is 6 the goal for step 6 is survey and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 0
+[inspector1] Surveying
+[sentinel4] I am at v18 (8/30), my health is 1 the goal for step 6 is survey and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 4
+[sentinel4] Surveying
+[inspector2] I am at v21 (3/25), my health is 6 the goal for step 6 is survey and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 4
+[inspector2] Surveying
+[explorer4] I am at v186 (22/35), my health is 4 the goal for step 6 is probe and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 4
+[explorer4] Probing my location
+[repairer6] I am at v154 (13/25), my health is 6 the goal for step 6 is random_walk and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 3
+[sentinel1] I am at v92 (15/30), my health is 1 the goal for step 6 is random_walk and I have 22 of money. My last result was successful. My last action was survey. The score is 295 and my last score was 52 with zones 30 and my zone is 3
+[repairer6] I have chose v47
+[sentinel1] I have chose v161
+[repairer6] I'm enabled. My current vertex is v154 and I'm going to' v47
+[sentinel1] I'm enabled. My current vertex is v92 and I'm going to' v161
+[sentinel2] I am at v173 (15/30), my health is 1 the goal for step 6 is random_walk and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 0
+[sentinel2] I have chose v45
+[sentinel2] I'm enabled. My current vertex is v173 and I'm going to' v45
+[inspector4] I am at v268 (7/25), my health is 6 the goal for step 6 is random_walk and I have 22 of money. My last result was successful. My last action was survey. The score is 295 and my last score was 52 with zones 30 and my zone is 9
+[inspector4] I have chose v182
+[inspector4] I'm enabled. My current vertex is v268 and I'm going to' v182
+[explorer5] I am at v232 (21/35), my health is 4 the goal for step 6 is probe and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 0
+[explorer5] Probing my location
+[saboteur3] I am at v88 (2/20), my health is 3 the goal for step 6 is gotoPath([v88,v89,v107,v187,v156]) and I have 22 of money. My last result was successful. My last action was attack. The score is 295 and my last score was 52 with zones 30 and my zone is 3
+[saboteur3] My next step in the path is v89
+[saboteur3] I'm enabled. My current energy is 2 but I need 5
+[saboteur3] My energy is 2, recharging
+[inspector5] I am at v108 (0/25), my health is 6 the goal for step 6 is recharge and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 9
+[inspector5] My energy is 0, recharging
+[saboteur4] I am at v206 (5/20), my health is 3 the goal for step 6 is gotoPath([v206,v54,v41,v271]) and I have 22 of money. My last result was successful. My last action was attack. The score is 295 and my last score was 52 with zones 30 and my zone is 7
+[saboteur4] My next step in the path is v54
+[saboteur4] I'm enabled. My current energy is 5 but I need 7
+[saboteur4] My energy is 5, recharging
+[inspector6] I am at v68 (5/25), my health is 6 the goal for step 6 is survey and I have 22 of money. My last result was successful. My last action was inspect. The score is 295 and my last score was 52 with zones 30 and my zone is 7
+[inspector6] Surveying
+[explorer6] I am at v251 (22/35), my health is 4 the goal for step 6 is probe and I have 22 of money. My last result was successful. My last action was goto. The score is 295 and my last score was 52 with zones 30 and my zone is 9
+[explorer6] Probing my location
+[explorer1] Vertex probed: v149 with value 4
+[explorer1] Current step is 7
+[explorer1] Sending probed vertex in broadcast v149 4
+[explorer3] Vertex probed: v262 with value 1
+[explorer3] Current step is 7
+[explorer3] Sending probed vertex in broadcast v262 1
+[explorer2] Vertex probed: v186 with value 1
+[explorer2] Vertex probed: v187 with value 1
+[explorer2] Vertex probed: v251 with value 1
+[explorer2] Current step is 7
+[explorer2] Sending probed vertex in broadcast v186 1
+[explorer2] Sending probed vertex in broadcast v187 1
+[explorer2] Sending probed vertex in broadcast v251 1
+[repairer2] Current step is 7
+[repairer5] Current step is 7
+[repairer4] Current step is 7
+[repairer3] Current step is 7
+[explorer6] Vertex probed: v186 with value 1
+[explorer6] Vertex probed: v187 with value 1
+[explorer6] Vertex probed: v251 with value 1
+[explorer6] Current step is 7
+[explorer6] Sending probed vertex in broadcast v186 1
+[explorer6] Sending probed vertex in broadcast v187 1
+[explorer6] Sending probed vertex in broadcast v251 1
+[explorer5] Vertex probed: v232 with value 1
+[explorer5] Current step is 7
+[explorer5] Sending probed vertex in broadcast v232 1
+[inspector1] Current step is 7
+[saboteur4] Current step is 7
+[inspector2] Current step is 7
+[saboteur3] Current step is 7
+[repairer1] Current step is 7
+[inspector5] Current step is 7
+[inspector4] Current step is 7
+[inspector3] Current step is 7
+[saboteur2] Current step is 7
+[explorer4] Vertex probed: v186 with value 1
+[explorer4] Vertex probed: v187 with value 1
+[explorer4] Vertex probed: v251 with value 1
+[explorer4] Current step is 7
+[inspector6] Current step is 7
+[sentinel1] Current step is 7
+[sentinel5] Current step is 7
+[explorer4] Sending probed vertex in broadcast v186 1
+[explorer4] Sending probed vertex in broadcast v187 1
+[explorer4] Sending probed vertex in broadcast v251 1
+[repairer6] Current step is 7
+[sentinel2] Current step is 7
+[sentinel6] Current step is 7
+[explorer1] I am at v149 (17/35), my health is 4 the goal for step 7 is goto(v210) and I have 26 of money. My last result was successful. My last action was probe. The score is 359 and my last score was 64 with zones 38 and my zone is 0
+[explorer1] I'm enabled. My current vertex is v149 and I'm going to' v210
+[saboteur1] Current step is 7
+[sentinel4] Current step is 7
+[sentinel3] Current step is 7
+[explorer2] I am at v187 (18/35), my health is 4 the goal for step 7 is goto(v156) and I have 26 of money. My last result was successful. My last action was probe. The score is 359 and my last score was 64 with zones 38 and my zone is 19
+[explorer2] I'm enabled. My current vertex is v187 and I'm going to' v156
+[repairer2] I am at v51 (6/25), my health is 6 the goal for step 7 is random_walk and I have 26 of money. My last result was successful. My last action was survey. The score is 359 and my last score was 64 with zones 38 and my zone is 0
+[repairer2] I have chose v79
+[repairer2] I'm enabled. My current vertex is v51 and I'm going to' v79
+[repairer3] I am at v203 (14/25), my health is 6 the goal for step 7 is survey and I have 26 of money. My last result was successful. My last action was goto. The score is 359 and my last score was 64 with zones 38 and my zone is 0
+[repairer3] Surveying
+[inspector1] I am at v56 (5/25), my health is 6 the goal for step 7 is random_walk and I have 26 of money. My last result was successful. My last action was survey. The score is 359 and my last score was 64 with zones 38 and my zone is 0
+[inspector1] I have chose v199
+[inspector1] I'm enabled. My current vertex is v56 and I'm going to' v199
+[explorer3] I am at v262 (22/35), my health is 4 the goal for step 7 is goto(v219) and I have 26 of money. My last result was successful. My last action was probe. The score is 359 and my last score was 64 with zones 38 and my zone is 0
+[explorer3] I'm enabled. My current vertex is v262 and I'm going to' v219
+[sentinel5] I am at v7 (1/30), my health is 1 the goal for step 7 is recharge and I have 26 of money. My last result was successful. My last action was goto. The score is 359 and my last score was 64 with zones 38 and my zone is 4
+[repairer5] I am at v221 (3/25), my health is 6 the goal for step 7 is random_walk and I have 26 of money. My last result was successful. My last action was survey. The score is 359 and my last score was 64 with zones 38 and my zone is 0
+[sentinel5] My energy is 1, recharging
+[inspector6] I am at v68 (4/25), my health is 6 the goal for step 7 is random_walk and I have 26 of money. My last result was successful. My last action was survey. The score is 359 and my last score was 64 with zones 38 and my zone is 6
+[repairer5] I have chose v122
+[repairer5] I'm enabled. My current vertex is v221 and I'm going to' v122
+[inspector6] I have chose v32
+[inspector6] I'm enabled. My current energy is 4 but I need 5
+[inspector6] My energy is 4, recharging
+[sentinel1] I am at v161 (12/30), my health is 1 the goal for step 7 is random_walk and I have 26 of money. My last result was successful. My last action was goto. The score is 359 and my last score was 64 with zones 38 and my zone is 0
+[explorer4] I am at v186 (22/35), my health is 4 the goal for step 7 is goto(v133) and I have 26 of money. My last result was successful. My last action was probe. The score is 359 and my last score was 64 with zones 38 and my zone is 19
+[sentinel1] I have chose v178
+[sentinel1] I'm enabled. My current vertex is v161 and I'm going to' v178
+[inspector4] I am at v182 (1/25), my health is 6 the goal for step 7 is recharge and I have 26 of money. My last result was successful. My last action was goto. The score is 359 and my last score was 64 with zones 38 and my zone is 19
+[inspector4] My energy is 1, recharging
+[explorer4] I'm enabled. My current vertex is v186 and I'm going to' v133
+[inspector3] I am at v252 (2/25), my health is 6 the goal for step 7 is random_walk and I have 26 of money. My last result was successful. My last action was goto. The score is 359 and my last score was 64 with zones 38 and my zone is 19
+[inspector5] I am at v108 (13/25), my health is 6 the goal for step 7 is survey and I have 26 of money. My last result was successful. My last action was recharge. The score is 359 and my last score was 64 with zones 38 and my zone is 19
+[inspector5] Surveying
+[inspector3] I have chose v209
+[inspector3] I'm enabled. My current energy is 2 but I need 8
+[inspector3] My energy is 2, recharging
+[sentinel2] I am at v45 (12/30), my health is 1 the goal for step 7 is random_walk and I have 26 of money. My last result was successful. My last action was goto. The score is 359 and my last score was 64 with zones 38 and my zone is 5
+[sentinel6] I am at v45 (7/30), my health is 1 the goal for step 7 is random_walk and I have 26 of money. My last result was successful. My last action was goto. The score is 359 and my last score was 64 with zones 38 and my zone is 5
+[sentinel2] I have chose v8
+[sentinel2] I'm enabled. My current vertex is v45 and I'm going to' v8
+[sentinel6] I have chose v8
+[sentinel6] I'm enabled. My current vertex is v45 and I'm going to' v8
+[repairer1] I am at v60 (9/25), my health is 6 the goal for step 7 is random_walk and I have 26 of money. My last result was successful. My last action was survey. The score is 359 and my last score was 64 with zones 38 and my zone is 5
+[repairer1] I have chose v59
+[repairer1] I'm enabled. My current vertex is v60 and I'm going to' v59
+[inspector2] I am at v21 (2/25), my health is 6 the goal for step 7 is random_walk and I have 26 of money. My last result was successful. My last action was survey. The score is 359 and my last score was 64 with zones 38 and my zone is 4
+[inspector2] I have chose v159
+[repairer4] I am at v32 (13/25), my health is 6 the goal for step 7 is survey and I have 26 of money. My last result was successful. My last action was recharge. The score is 359 and my last score was 64 with zones 38 and my zone is 6
+[inspector2] I'm enabled. My current vertex is v21 and I'm going to' v159
+[repairer4] Surveying
+[repairer6] I am at v47 (9/25), my health is 6 the goal for step 7 is survey and I have 26 of money. My last result was successful. My last action was goto. The score is 359 and my last score was 64 with zones 38 and my zone is 19
+[repairer6] Surveying
+[saboteur1] I am at v156 (14/20), my health is 3 the goal for step 7 is gotoPath([v156,v187,v58,v108,v62,v36,v43]) and I have 26 of money. My last result was successful. My last action was attack. The score is 359 and my last score was 64 with zones 38 and my zone is 19
+[sentinel4] I am at v18 (7/30), my health is 1 the goal for step 7 is random_walk and I have 26 of money. My last result was successful. My last action was survey. The score is 359 and my last score was 64 with zones 38 and my zone is 4
+[saboteur1] My next step in the path is v187
+[saboteur1] I'm enabled. My current vertex is v156 and I'm going to' v187
+[sentinel4] I have chose v297
+[sentinel4] I'm enabled. My current vertex is v18 and I'm going to' v297
+[sentinel3] I am at v124 (4/30), my health is 1 the goal for step 7 is random_walk and I have 26 of money. My last result was successful. My last action was goto. The score is 359 and my last score was 64 with zones 38 and my zone is 19
+[sentinel3] I have chose v209
+[sentinel3] I'm enabled. My current energy is 4 but I need 8
+[sentinel3] My energy is 4, recharging
+[explorer5] I am at v232 (21/35), my health is 4 the goal for step 7 is goto(v285) and I have 26 of money. My last result was successful. My last action was probe. The score is 359 and my last score was 64 with zones 38 and my zone is 0
+[explorer5] I'm enabled. My current vertex is v232 and I'm going to' v285
+[saboteur2] I am at v126 (8/20), my health is 3 the goal for step 7 is goto(v173) and I have 26 of money. My last result was successful. My last action was goto. The score is 359 and my last score was 64 with zones 38 and my zone is 5
+[saboteur2] I'm enabled. My current vertex is v126 and I'm going to' v173
+[saboteur3] I am at v88 (12/20), my health is 3 the goal for step 7 is gotoPath([v88,v89,v107,v187,v156,v39,v186,v257,v73,v234]) and I have 26 of money. My last result was successful. My last action was recharge. The score is 359 and my last score was 64 with zones 38 and my zone is 4
+[saboteur3] My next step in the path is v89
+[saboteur3] I'm enabled. My current vertex is v88 and I'm going to' v89
+[explorer6] I am at v251 (22/35), my health is 4 the goal for step 7 is goto(v42) and I have 26 of money. My last result was successful. My last action was probe. The score is 359 and my last score was 64 with zones 38 and my zone is 19
+[explorer6] I'm enabled. My current vertex is v251 and I'm going to' v42
+[saboteur4] I am at v206 (15/20), my health is 3 the goal for step 7 is gotoPath([v206,v54,v41,v271]) and I have 26 of money. My last result was successful. My last action was recharge. The score is 359 and my last score was 64 with zones 38 and my zone is 6
+[saboteur4] My next step in the path is v54
+[saboteur4] I'm enabled. My current vertex is v206 and I'm going to' v54
+[explorer1] Current step is 8
+[explorer3] Current step is 8
+[repairer1] Current step is 8
+[explorer5] Current step is 8
+[repairer5] Current step is 8
+[explorer4] Current step is 8
+[repairer3] Current step is 8
+[repairer2] Current step is 8
+[saboteur4] Current step is 8
+[saboteur2] Current step is 8
+[repairer4] Current step is 8
+[sentinel1] Current step is 8
+[sentinel2] Current step is 8
+[explorer2] Current step is 8
+[explorer6] Current step is 8
+[repairer6] Current step is 8
+[saboteur3] Current step is 8
+[sentinel3] Current step is 8
+[sentinel6] Current step is 8
+[sentinel4] Current step is 8
+[explorer1] I am at v210 (8/35), my health is 4 the goal for step 8 is probe and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 4
+[explorer1] Probing my location
+[explorer1] Synchronizing...
+[inspector2] Current step is 8
+[repairer1] I am at v59 (2/25), my health is 6 the goal for step 8 is survey and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 0
+[inspector6] Current step is 8
+[repairer1] Surveying
+[repairer1] Synchronizing...
+[sentinel5] Current step is 8
+[repairer5] I am at v122 (0/25), my health is 6 the goal for step 8 is recharge and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 0
+[inspector1] Current step is 8
+[repairer5] My energy is 0, recharging
+[repairer5] Synchronizing...
+[repairer2] I am at v79 (3/25), my health is 6 the goal for step 8 is survey and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 0
+[repairer2] Surveying
+[repairer3] I am at v203 (13/25), my health is 6 the goal for step 8 is random_walk and I have 28 of money. My last result was successful. My last action was survey. The score is 427 and my last score was 68 with zones 40 and my zone is 0
+[repairer3] I have chose v162
+[repairer3] I'm enabled. My current vertex is v203 and I'm going to' v162
+[repairer2] Synchronizing...
+[repairer3] Synchronizing...
+[inspector3] Current step is 8
+[inspector4] Current step is 8
+[inspector5] Current step is 8
+[repairer4] I am at v32 (12/25), my health is 6 the goal for step 8 is random_walk and I have 28 of money. My last result was successful. My last action was survey. The score is 427 and my last score was 68 with zones 40 and my zone is 6
+[repairer4] I have chose v34
+[repairer4] I'm enabled. My current vertex is v32 and I'm going to' v34
+[saboteur1] Current step is 8
+[repairer4] Synchronizing...
+[sentinel1] I am at v178 (8/30), my health is 1 the goal for step 8 is random_walk and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 0
+[sentinel1] I have chose v50
+[sentinel1] I'm enabled. My current vertex is v178 and I'm going to' v50
+[sentinel2] I am at v8 (6/30), my health is 1 the goal for step 8 is random_walk and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 3
+[sentinel2] I have chose v227
+[sentinel2] I'm enabled. My current energy is 6 but I need 8
+[sentinel2] My energy is 6, recharging
+[sentinel1] Synchronizing...
+[sentinel2] Synchronizing...
+[explorer2] I am at v156 (17/35), my health is 4 the goal for step 8 is probe and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 27
+[explorer2] Probing my location
+[explorer3] I am at v219 (18/35), my health is 4 the goal for step 8 is probe and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 0
+[explorer3] Probing my location
+[repairer6] I am at v47 (8/25), my health is 6 the goal for step 8 is random_walk and I have 28 of money. My last result was successful. My last action was survey. The score is 427 and my last score was 68 with zones 40 and my zone is 27
+[repairer6] I have chose v290
+[repairer6] I'm enabled. My current vertex is v47 and I'm going to' v290
+[repairer6] Synchronizing...
+[explorer2] Synchronizing...
+[explorer3] Synchronizing...
+[sentinel3] I am at v124 (19/30), my health is 1 the goal for step 8 is random_walk and I have 28 of money. My last result was successful. My last action was recharge. The score is 427 and my last score was 68 with zones 40 and my zone is 27
+[sentinel3] I have chose v209
+[sentinel3] I'm enabled. My current vertex is v124 and I'm going to' v209
+[sentinel3] Synchronizing...
+[explorer4] I am at v133 (18/35), my health is 4 the goal for step 8 is probe and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 27
+[explorer4] Probing my location
+[explorer4] Synchronizing...
+[sentinel6] I am at v8 (1/30), my health is 1 the goal for step 8 is recharge and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 3
+[sentinel6] My energy is 1, recharging
+[sentinel6] Synchronizing...
+[sentinel4] I am at v297 (3/30), my health is 1 the goal for step 8 is random_walk and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 0
+[sentinel4] I have chose v240
+[sentinel4] I'm enabled. My current vertex is v297 and I'm going to' v240
+[sentinel4] Synchronizing...
+[inspector2] I am at v159 (1/25), my health is 6 the goal for step 8 is recharge and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 4
+[inspector2] My energy is 1, recharging
+[inspector2] Synchronizing...
+[explorer5] I am at v285 (19/35), my health is 4 the goal for step 8 is probe and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 0
+[explorer5] Probing my location
+[explorer5] Synchronizing...
+[inspector6] I am at v68 (17/25), my health is 6 the goal for step 8 is random_walk and I have 28 of money. My last result was successful. My last action was recharge. The score is 427 and my last score was 68 with zones 40 and my zone is 6
+[inspector6] I have chose v32
+[inspector6] I'm enabled. My current vertex is v68 and I'm going to' v32
+[inspector6] Synchronizing...
+[sentinel5] I am at v7 (16/30), my health is 1 the goal for step 8 is random_walk and I have 28 of money. My last result was successful. My last action was recharge. The score is 427 and my last score was 68 with zones 40 and my zone is 27
+[sentinel5] I have chose v200
+[sentinel5] I'm enabled. My current vertex is v7 and I'm going to' v200
+[inspector1] I am at v199 (2/25), my health is 6 the goal for step 8 is survey and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 3
+[inspector1] Surveying
+[inspector3] I am at v252 (15/25), my health is 6 the goal for step 8 is random_walk and I have 28 of money. My last result was successful. My last action was recharge. The score is 427 and my last score was 68 with zones 40 and my zone is 27
+[inspector3] I have chose v209
+[inspector3] I'm enabled. My current vertex is v252 and I'm going to' v209
+[sentinel5] Synchronizing...
+[inspector1] Synchronizing...
+[inspector3] Synchronizing...
+[inspector4] I am at v182 (14/25), my health is 6 the goal for step 8 is survey and I have 28 of money. My last result was successful. My last action was recharge. The score is 427 and my last score was 68 with zones 40 and my zone is 27
+[inspector4] Surveying
+[inspector4] Synchronizing...
+[inspector5] I am at v108 (12/25), my health is 6 the goal for step 8 is random_walk and I have 28 of money. My last result was successful. My last action was survey. The score is 427 and my last score was 68 with zones 40 and my zone is 27
+[inspector5] I have chose v256
+[inspector5] I'm enabled. My current vertex is v108 and I'm going to' v256
+[inspector5] Synchronizing...
+[saboteur1] I am at v187 (13/20), my health is 3 the goal for step 8 is gotoPath([v187,v58,v108,v190,v47,v43]) and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 27
+[saboteur1] My next step in the path is v58
+[saboteur1] I'm enabled. My current vertex is v187 and I'm going to' v58
+[saboteur1] Synchronizing...
+[explorer6] I am at v42 (17/35), my health is 4 the goal for step 8 is probe and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 27
+[explorer6] Probing my location
+[explorer6] Synchronizing...
+[saboteur2] I am at v173 (1/20), my health is 3 the goal for step 8 is recharge and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 0
+[saboteur2] My energy is 1, recharging
+[saboteur2] Synchronizing...
+[saboteur3] I am at v89 (7/20), my health is 3 the goal for step 8 is gotoPath([v89,v107,v253,v108,v190,v47,v43]) and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 27
+[saboteur3] My next step in the path is v107
+[saboteur3] I'm enabled. My current vertex is v89 and I'm going to' v107
+[saboteur3] Synchronizing...
+[saboteur4] I am at v54 (8/20), my health is 3 the goal for step 8 is goto(v52) and I have 28 of money. My last result was successful. My last action was goto. The score is 427 and my last score was 68 with zones 40 and my zone is 6
+[saboteur4] I'm enabled. My current vertex is v54 and I'm going to' v52
+[saboteur4] Synchronizing...
+[explorer1] Vertex probed: v210 with value 4
+[explorer1] Current step is 9
+[explorer1] Sending probed vertex in broadcast v210 4
+[explorer4] Vertex probed: v133 with value 1
+[explorer4] Current step is 9
+[explorer4] Sending probed vertex in broadcast v133 1
+[explorer2] Vertex probed: v156 with value 1
+[explorer2] Vertex probed: v42 with value 1
+[explorer5] Vertex probed: v285 with value 1
+[explorer2] Current step is 9
+[explorer5] Current step is 9
+[explorer5] Sending probed vertex in broadcast v285 1
+[explorer3] Vertex probed: v219 with value 1
+[explorer2] Sending probed vertex in broadcast v156 1
+[explorer3] Current step is 9
+[explorer2] Sending probed vertex in broadcast v42 1
+[explorer3] Sending probed vertex in broadcast v219 1
+[repairer1] Current step is 9
+[repairer2] Current step is 9
+[explorer6] Vertex probed: v156 with value 1
+[explorer6] Vertex probed: v42 with value 1
+[explorer6] Current step is 9
+[explorer6] Sending probed vertex in broadcast v156 1
+[explorer6] Sending probed vertex in broadcast v42 1
+[repairer3] Current step is 9
+[repairer4] Current step is 9
+[saboteur4] Current step is 9
+[saboteur2] Current step is 9
+[repairer5] Current step is 9
+[saboteur3] Current step is 9
+[saboteur1] Current step is 9
+[sentinel1] Current step is 9
+[repairer6] Current step is 9
+[sentinel2] Current step is 9
+[sentinel4] Current step is 9
+[inspector1] Current step is 9
+[sentinel5] Current step is 9
+[sentinel3] Current step is 9
+[sentinel6] Current step is 9
+[inspector2] Current step is 9
+[explorer1] I am at v210 (8/35), my health is 4 the goal for step 9 is goto(v109) and I have 28 of money. My last result was successful. My last action was probe. The score is 486 and my last score was 59 with zones 31 and my zone is 7
+[explorer1] I'm enabled. My current energy is 8 but I need 10
+[explorer1] My energy is 8, recharging
+[inspector3] Current step is 9
+[explorer2] I am at v156 (17/35), my health is 4 the goal for step 9 is goto(v55) and I have 28 of money. My last result was successful. My last action was probe. The score is 486 and my last score was 59 with zones 31 and my zone is 18
+[explorer2] I'm enabled. My current vertex is v156 and I'm going to' v55
+[explorer3] I am at v219 (18/35), my health is 4 the goal for step 9 is goto(v176) and I have 28 of money. My last result was successful. My last action was probe. The score is 486 and my last score was 59 with zones 31 and my zone is 0
+[explorer3] I'm enabled. My current vertex is v219 and I'm going to' v176
+[repairer1] I am at v59 (1/25), my health is 6 the goal for step 9 is recharge and I have 28 of money. My last result was successful. My last action was survey. The score is 486 and my last score was 59 with zones 31 and my zone is 0
+[repairer1] My energy is 1, recharging
+[inspector6] Current step is 9
+[inspector4] Current step is 9
+[repairer2] I am at v79 (2/25), my health is 6 the goal for step 9 is random_walk and I have 28 of money. My last result was successful. My last action was survey. The score is 486 and my last score was 59 with zones 31 and my zone is 0
+[repairer2] I have chose v61
+[repairer2] I'm enabled. My current energy is 2 but I need 8
+[repairer2] My energy is 2, recharging
+[repairer3] I am at v162 (6/25), my health is 6 the goal for step 9 is survey and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 0
+[repairer3] Surveying
+[inspector5] Current step is 9
+[repairer4] I am at v34 (7/25), my health is 6 the goal for step 9 is survey and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 3
+[repairer4] Surveying
+[repairer5] I am at v122 (13/25), my health is 6 the goal for step 9 is survey and I have 28 of money. My last result was successful. My last action was recharge. The score is 486 and my last score was 59 with zones 31 and my zone is 0
+[repairer5] Surveying
+[explorer4] I am at v133 (18/35), my health is 4 the goal for step 9 is goto(v101) and I have 28 of money. My last result was successful. My last action was probe. The score is 486 and my last score was 59 with zones 31 and my zone is 0
+[explorer4] I'm enabled. My current vertex is v133 and I'm going to' v101
+[saboteur1] I am at v58 (10/20), my health is 3 the goal for step 9 is gotoPath([v58,v108,v62,v36,v234]) and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 18
+[saboteur1] My next step in the path is v108
+[saboteur1] I'm enabled. My current vertex is v58 and I'm going to' v108
+[sentinel1] I am at v50 (6/30), my health is 1 the goal for step 9 is random_walk and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 0
+[sentinel1] I have chose v117
+[sentinel1] I'm enabled. My current vertex is v50 and I'm going to' v117
+[explorer5] I am at v285 (19/35), my health is 4 the goal for step 9 is goto(v139) and I have 28 of money. My last result was successful. My last action was probe. The score is 486 and my last score was 59 with zones 31 and my zone is 0
+[explorer5] I'm enabled. My current vertex is v285 and I'm going to' v139
+[sentinel2] I am at v8 (21/30), my health is 1 the goal for step 9 is random_walk and I have 28 of money. My last result was successful. My last action was recharge. The score is 486 and my last score was 59 with zones 31 and my zone is 3
+[sentinel2] I have chose v227
+[sentinel2] I'm enabled. My current vertex is v8 and I'm going to' v227
+[repairer6] I am at v290 (1/25), my health is 6 the goal for step 9 is recharge and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 18
+[repairer6] My energy is 1, recharging
+[explorer6] I am at v42 (17/35), my health is 4 the goal for step 9 is goto(v268) and I have 28 of money. My last result was successful. My last action was probe. The score is 486 and my last score was 59 with zones 31 and my zone is 18
+[explorer6] I'm enabled. My current vertex is v42 and I'm going to' v268
+[sentinel4] I am at v240 (2/30), my health is 1 the goal for step 9 is survey and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 0
+[sentinel4] Surveying
+[inspector1] I am at v199 (1/25), my health is 6 the goal for step 9 is recharge and I have 28 of money. My last result was successful. My last action was survey. The score is 486 and my last score was 59 with zones 31 and my zone is 3
+[inspector1] My energy is 1, recharging
+[saboteur2] I am at v173 (11/20), my health is 3 the goal for step 9 is attack(a11) and I have 28 of money. My last result was successful. My last action was recharge. The score is 486 and my last score was 59 with zones 31 and my zone is 0
+[saboteur2] I am going to attack an entity and its name is a11
+[sentinel3] I am at v209 (11/30), my health is 1 the goal for step 9 is random_walk and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 18
+[sentinel3] I have chose v284
+[sentinel3] I'm enabled. My current vertex is v209 and I'm going to' v284
+[sentinel6] I am at v8 (16/30), my health is 1 the goal for step 9 is random_walk and I have 28 of money. My last result was successful. My last action was recharge. The score is 486 and my last score was 59 with zones 31 and my zone is 3
+[sentinel6] I have chose v227
+[sentinel6] I'm enabled. My current vertex is v8 and I'm going to' v227
+[inspector2] I am at v159 (14/25), my health is 6 the goal for step 9 is survey and I have 28 of money. My last result was successful. My last action was recharge. The score is 486 and my last score was 59 with zones 31 and my zone is 7
+[inspector2] Surveying
+[sentinel5] I am at v200 (13/30), my health is 1 the goal for step 9 is random_walk and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 0
+[sentinel5] I have chose v298
+[sentinel5] I'm enabled. My current vertex is v200 and I'm going to' v298
+[saboteur3] I am at v107 (2/20), my health is 3 the goal for step 9 is gotoPath([v107,v253,v108,v62,v36,v234]) and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 18
+[saboteur3] My next step in the path is v253
+[saboteur3] I'm enabled. My current vertex is v107 and I'm going to' v253
+[inspector3] I am at v209 (7/25), my health is 6 the goal for step 9 is goto(v187) and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 18
+[inspector3] I'm enabled. My current energy is 7 but I need 8
+[inspector3] My energy is 7, recharging
+[inspector6] I am at v32 (12/25), my health is 6 the goal for step 9 is random_walk and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 3
+[inspector6] I have chose v286
+[inspector6] I'm enabled. My current vertex is v32 and I'm going to' v286
+[inspector4] I am at v182 (13/25), my health is 6 the goal for step 9 is random_walk and I have 28 of money. My last result was successful. My last action was survey. The score is 486 and my last score was 59 with zones 31 and my zone is 18
+[inspector4] I have chose v268
+[inspector4] I'm enabled. My current vertex is v182 and I'm going to' v268
+[inspector5] I am at v256 (6/25), my health is 6 the goal for step 9 is survey and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 18
+[inspector5] Surveying
+[saboteur4] I am at v52 (4/20), my health is 3 the goal for step 9 is attack(a6) and I have 28 of money. My last result was successful. My last action was goto. The score is 486 and my last score was 59 with zones 31 and my zone is 0
+[saboteur4] I am going to attack an entity and its name is a6

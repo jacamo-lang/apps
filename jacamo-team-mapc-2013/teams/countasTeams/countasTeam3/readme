@@ -1,0 +1,55 @@
+Count-as version of team 'r1cTmp'
+--------------------------------
+
+
+- Count-as program: src/org/mapc.countas
+- Jars in ../lib:
+        -antlrworks-1.4.2 - parser
+        -count-as - count-as engine
+        -countas4cartago - interface between count-as engine e cartago
+	-cartago - a special version of cartago that works with the count-as engine
+
+
+
+
+
+
+
+Changes in the agents:
+---------------------
+
+*coach.asl
+	** plan !start
+                - setup of count-as mechanisms
+		- adoption of leader role moved to count-as - when the agent creates the group, it gets automatically the "leader" 
+		
+	** plan !run_scheme
+		- assignment of responsibility for schemes moved to count-as
+
+	** plan !callFriendsToJoinGroup
+		- the assignment of roles as been moved to count-as. 
+
+*mod.organization
+	** plan !adoptrole
+	** removed the handling of addition of belief '+obligation(Ag,Norm,committed(Ag,Mission,Scheme),DeadLine)' - 
+           the commitment is handled by a count-as rule
+        ** plans !probeAll:
+           - the agent looks to organisation to check whether the goal 'probeAll' still holds.
+           - the achievement of the goal is handled by a count-as rule.
+
+	
+
+
+		
+Integrating Graph x Count-as	
+-----------------------------
+* MixedAgentArch.java
+	** Method checkMail:
+		- added: globalGraph.getGraph().setVertexValue(vertexV.getFunctor(), (int)value.solve()) - 
+
+* GlobalGraph.java
+	** the private variable graph is now an instance of ObservableGraph
+
+* Added graphLib.observable
+
+* Added graphLib2Countas

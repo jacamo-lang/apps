@@ -1,0 +1,15 @@
+- Count-as program: src/org/mapc.countas
+- Libs: antlrworks-1.4.2 - parser
+        count-as - count-as engine
+        countas4cartago - interface between count-as engine e cartago
+	cartago - a special version of cartago that works with the count-as engine
+
+
+
+Changes in the agents:
+---------------------
+Coach.asl:
+	!start, !run_scheme, !callFriendsToJoinGroup
+
+mod.organization.asl: 
+        !adoptRole, obligation(Ag,Norm,committed(Ag,Mission,Scheme),DeadLine)

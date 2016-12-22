@@ -1,0 +1,33 @@
+Count-as version of team 'r1cTmp'
+--------------------------------
+
+
+- Count-as program: src/org/mapc.countas
+- Jars in ../lib:
+        -antlrworks-1.4.2 - parser
+        -count-as - count-as engine
+        -countas4cartago - interface between count-as engine e cartago
+	-cartago - a special version of cartago that works with the count-as engine
+
+
+
+
+
+Changes in the agents:
+---------------------
+
+*coach.asl
+	** plan !start
+                - setup of count-as mechanisms
+		- adoption of leader role moved to count-as - when the agent creates the group, it gets automatically the "leader" 
+		
+	** plan !run_scheme
+		- assignment of responsibility for schemes moved to count-as
+
+	** plan !callFriendsToJoinGroup
+		- the assignment of roles as been moved to count-as. 
+
+*mod.organization
+	** plan !adoptrole
+	** addition of belief +obligation(Ag,Norm,committed(Ag,Mission,Scheme),DeadLine) - 
+	

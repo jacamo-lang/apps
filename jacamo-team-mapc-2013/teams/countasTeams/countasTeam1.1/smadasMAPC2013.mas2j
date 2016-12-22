@@ -1,0 +1,55 @@
+MAS smadasMAPC2013 {
+
+	infrastructure: Centralised
+
+   // Environment initialisation
+   environment: env.CustomEISEnv (
+                       //"lib/eismassim-1.0.3.jar",   // jar file containing the environment implementation 
+                       "lib/eismassim-1.0.3.jar",   // jar file containing the environment implementation
+						agent_entity(explorer1, connectionB1, b1countas), // agent x entities relation
+						agent_entity(explorer2, connectionB2, b2countas), // password and more details in eismassimconfig.xml
+						agent_entity(explorer3, connectionB3, b3countas),
+						agent_entity(explorer4, connectionB4, b4countas),
+						agent_entity(explorer5, connectionB5, b5countas),
+						agent_entity(explorer6, connectionB6, b6countas),
+						
+						agent_entity(repairer1, connectionB7, b7countas),
+						agent_entity(repairer2, connectionB8, b8countas),
+						agent_entity(repairer3, connectionB9, b9countas),
+						agent_entity(repairer4, connectionB10, b10countas),
+						agent_entity(repairer5, connectionB11, b11countas),
+						agent_entity(repairer6, connectionB12, b12countas),
+						
+						agent_entity(saboteur1, connectionB13, b13countas),
+						agent_entity(saboteur2, connectionB14, b14countas),
+						agent_entity(saboteur3, connectionB15, b15countas),
+						agent_entity(saboteur4, connectionB16, b16countas),
+						
+						agent_entity(sentinel1, connectionB17, b17countas),
+						agent_entity(sentinel2, connectionB18, b18countas),
+						agent_entity(sentinel3, connectionB19, b19countas),
+						agent_entity(sentinel4, connectionB20, b20countas),
+						agent_entity(sentinel5, connectionB21, b21countas),
+						agent_entity(sentinel6, connectionB22, b22countas),
+						
+						agent_entity(inspector1,connectionB23, b23countas),
+						agent_entity(inspector2,connectionB24, b24countas),
+						agent_entity(inspector3,connectionB25, b25countas),
+						agent_entity(inspector4,connectionB26, b26countas),
+						agent_entity(inspector5,connectionB27, b27countas),
+						agent_entity(inspector6,connectionB28, b28countas)
+                )
+
+   agents:
+		    coach agentArchClass c4jason.CAgentArch;
+			explorer agentArchClass env.MixedAgentArch #6;
+            repairer agentArchClass env.MixedAgentArch #6;
+			saboteur agentArchClass env.MixedAgentArch #4;
+			sentinel agentArchClass env.MixedAgentArch #6;
+			inspector agentArchClass env.MixedAgentArch #6;
+		
+	
+
+	aslSourcePath:
+		"src/asl";
+}

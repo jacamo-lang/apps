@@ -1,0 +1,96 @@
+% +- 3 paginas
+% Como funciona cada agente?
+% Prioridades de escolha
+% - Estrategias de exploracao
+% 	- Compartilhamento de informacoes
+% - Exploitacao:
+% 	- selecao de zonas, 2 morrinhos (por que usou 2 morrinhos?)
+% - Compra: hulk - por que usamos? 
+% - reparacao
+% - ataque/defesa
+% detalhes importantes da estrategia de jogo - se tiver
+\section{Strategies}
+
+% \item Is most of you agents' behavior emergent on and individual and team level?
+% \item Do your agents have an explicit mental state? 
+In our strategy both individual and group behavior are important. While the individual behavior is important when the agents are isolated in the map, the group behaviour is responsible for preventing redundant actions and for producing a coherent and cooperative global result. The agents are proactive in order to get achievement points and obtaining a good score. They also use their beliefs and the exchanged information to decide their next action.
+
+%\item What is the main strategy of your team?
+As commented in the previous section, we consider two main strategies: exploration and exploitation. In the exploration phase the agents just explore the map and try to get as most achievement points as possible. After step 15, our agents go to a good zone to conquer it.
+
+% \item How important are achievements for your overall strategy?
+Since achievement points are important and they accumulate in each one of the 750 steps, it is desirable to obtain them as soon as possible. However, some achievements are more complicated to conquer after some time, hence they can be ignored. For example, it does not make sense to survey all edges in the graph, considering it takes a long time to be performed. Instead of it, our agents stay in a vertex getting more score by exploiting water wells. For the same reason we are not interested on inspecting all opponent agents, thus our inspectors only inspect them when they are near.
+
+%\item How do you find good zones? How do you estimate the value of zones?
+After the exploration phase, the exploitation phase starts. One of our explorers reasons about which are the two best zones in the map to be exploited. Exploiting two zones is advantageous since the map is symmetric and it is particularly important against teams that keep only one zone. In order to do that, we used a modified version of the BFS algorithm, that is run for all vertex, summing their values until some depth. The vertex with the highest sum represents where the best zone is (zone 1). After it, the algorithm tries to find the second best vertex to set the second best zone (zone 2), which may have some intersection with the first one. This algorithm is not optimal because its result is always a circular shape, when the ideal choice often has a free shape.
+
+%\item How do you conquer zones? How do you defend zones if attacked? Do you attack zones?
+
+When the good zones are defined, an explorer organises the agents in two groups, one for zone 1 and another for zone 2. Each group has 10 members, with two agents of each type. The agents are then informed about the central vertex of its zone and how far they can go from it. The central vertex of an area is the one discovered in the exploration phase with the best sum. The distance they can go from it defines the border of the corresponding zone. After it, the agents are positioned in their zones. The non-saboteur agents take positions in vertices that have two neighbour vertices belonging to our team, but without anyone there. The saboteur agents scout their zones and attack opponents inside it, they also attack near enemy zones. We assume that if the enemy zone is not near, the opponent probably has a small zone and we do not need to attack them.
+%The rule for the non-saboteur agents positions is to stay in a vertex which has two neighbour vertices belonging to our team, but with no agents there.
+
+% \item How do you make use of the buying-mechanism?
+% \item Can your agents change their behavior during runtime? If so, what triggers the changes? (part 1)
+% \item If you agents perform some planning, how many steps do they plan ahead.
+% \item How do you organize your agents? Do you use e.g. hierarchies? Is your organization implicit or explicit?
+% \item How do you implement the roles of the agents? Which strategies do the different roles implement?
+Table~\ref{tab:tabStrategies} shows the strategies and plans for each type of agent. There are plans with more steps (buy, repair, probe) and plans where the agents simply react (attack, parry, inspect, recharge, survey). We noticed that usually long-term plans are not a good idea, because the environment changes quickly. The strategies are explained in more details below.
+
+
+\begin{itemize}
+
+ \item Buy: we concluded that it is be better to do not buy many things. We noticed it through tests between our MAS with a buying strategy where the agents buy more things against one where the agents just buy few things, and the second strategy won all matches in all simulations. Firstly the buying strategy consisted of only buying upgrades for the saboteurs: buy sabotage devices to have a strength equal to the highest  enemy saboteur health value, and buy shields to have health one time greater than the highest  enemy saboteur strength value. We did a second version of this strategy where just one saboteur (\texttt{Hulk}) buys upgrades, this had the benefit of decreasing our expenses while also making agent teams with a similar strategy waste money. Another improvement of the buying strategy was the addition of an agent named \texttt{Coach}, which received information about our enemies upgrades from the inspectors and used them to notice whether the enemy team is buying or not, if they were not buying anything this agent informs the agent \texttt{Hulk} to stop buying upgrades in the matches against this team and then save achievement points.
+ % \item Can your agents change their behavior during runtime? If so, what triggers the changes? (part 2)
+ \item Attack: the saboteurs always attack the opponent saboteurs first, and then the repairers. However, in the initial steps, attacking the explorers would be a good second option too, since it would be harder for the opponent team to explore the map. In order to prevent redundant attacks, there is a hierarchy defining which saboteur attacks first.
+ \item Repair: the repair strategy consists of finding the closest available repairer to help a disabled agent, after it the repairer and the damaged agent move close to each other. If there are no available repairers the disabled agent moves to the closest repairer. If there is another closest disabled agent to repair or another repairer, they cancel the process and start it again with the closest agent.
+ \item Parry: if there is an opponent saboteur in the same vertex that our agents, the formula $1 / N$ defines the parrying probability, where $N$ is the number of ally agents in the same vertex. This way we can prevent all agents from parrying the same saboteur. Our agents do not parry if there are more or the same number of ally saboteurs and opponent saboteurs, since the opponent probably will attack our saboteurs first. If an agent chooses not to parry, then it leaves the vertex.
+ \item Probe: the explorers always probe the closest unprobed vertex and they repeat it until all vertices are probed. To avoid explorers probing the same vertex, there is a hierarchy which defines the explorers who act first.
+ \item Inspect: the inspectors always inspects near enemies, the aim of inspection is to identify enemy saboteurs and to check if the opponent is using a buying strategy.
+ \item Recharge: the agents always check if they have enough energy before doing an action, if they do not have or it is less than 2 points, then they recharge. They also recharge when they do not have any action to do.
+ \item Survey: the agents only survey if there is an unsurveyed near edge. The sentinels are the main agents responsible for doing survey, but other agents do it too if they do not have anything to do in the step.
+\end{itemize}
+
+\begin{table}[h]
+\begin{center}
+
+	\begin{tabular}{l c c c c c}
+		\toprule
+		Action & Repairer & Saboteur & Explorer & Sentinel & Inspector \\
+		\midrule
+		buy &  & x(Hulk) &  &  &  \\
+		%\midrule
+		attack &  & x &  &  &  \\
+		%\midrule
+		repair & x &  &  &  &  \\
+		%\midrule
+		parry & x &  &  & x &  \\
+		%\midrule
+		probe &  &  & x &  &  \\
+		%\midrule
+		inspect &  &  &  &  & x \\
+		%\midrule
+		recharge & x & x & x & x & x \\
+		%\midrule
+		goto & x & x & x & x & x \\
+		%\midrule
+		survey & x & x & x & x & x \\
+		\bottomrule            
+                
+	\end{tabular}
+\end{center}
+\caption{Implemented strategies by agent type. \label{tab:tabStrategies}}
+\end{table}
+
+
+%In order to prevent some redundant actions we have created and explicit hierarchy. For example, \texttt{repairer1} has a 
+%Já respondido
+
+%\item How do your agents analyze the topology of the map? And how do they exploit their findings?
+%Fica em outra parte
+
+
+%\item How does the overall team work together? (coordination, information sharing, ...)
+%Já responsido em diversas partes do texto
+
+% Jomi: troquei area por zone no paragrafo abaixo
+Finally, there are strategies to expand the team zone and to stop expanding. The goal of the first one is to conquer more vertices in the same zone: when an agent is participating in a zone occupation and it can go to another vertex without breaking the zone, it will do it. The second strategy stops the agents from expanding when they have a high score and to wait for the opponents reaction.

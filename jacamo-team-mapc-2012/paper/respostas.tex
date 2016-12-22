@@ -1,0 +1,186 @@
+\section*{Short Answers}
+
+\appendix
+
+\section{Introduction}
+
+\begin{enumerate}
+\item What was the motivation to participate in the contest?\\
+	A: Evaluate the result of our master and PhD thesis.
+
+%Multi-Agent Programming Contest offers an useful context based on cooperation, coordination, and decentralisation to evaluate our master and Phd thesis proposals. Our main approach is ($i$) to develop a \emph{base} multi-agent system for the contest, after it ($ii$) change the base system using our corresponding proposals, and then ($iii$) evaluate and compare  each proposal against the base system. Another motivation is to improve our experience in developing MAS, because most of us are just starting on the domain.\\
+
+\item  What is the (brief) history of the team? (MAS course project,  thesis evaluation, $\ldots$) \\
+	A: Our team was formed by members from the Multi-Agent Systems research group (called SMADAS) at Federal University of Santa Catarina (UFSC). %\\
+
+\item  What is the name of your team?\\
+	A: Our team's name is SMADAS-UFSC.%\\
+
+\item  How many developers and designers did you have? At what level of education are your team members? \\
+	A: Our team has six developers and everyone was involved with the system design. We have one PhD, one PhD student, three masters students and one undergraduate student. %\\
+
+\item  From which field of research do you come from? Which work is related?\\
+	A: All team members work with Multi-Agent Systems and Artificial Intelligence. %\\
+
+\end{enumerate}
+
+\section{System Analysis and Design}
+
+\begin{enumerate}
+ 	\item  Did you use a Multi-Agent programming languages? Please justify your answer.\\
+	A: We used the Jason language because all members are familiar with it.%\\ % and it is used in their master and PhD thesis. 
+ 
+ 	\item  If some Multi-Agent system methodology such as Prometheus, O-MaSE, or Tropos was used, how did you use it? If you did not, please justify.\\
+	A: We did not use any software engineering methodology because the problem seemed quite simple to solve and we had no experience with such methodologies.%\\ %Thus we decided that it was better to use our time developing the system than learning a methodology. 
+   	   
+ 	\item  Is the solution based on the centralisation of coordination/information on a specific agent? Conversely if you plan a decentralised solution, which strategy do you plan to use?\\
+	A: The system information is decentralised: each agent has all available information about the enemies and the graph. The coordination is centralised in a few cases, to solve some conflicting situations, like defining which agent should be repaired first or what is the best zone to exploit. %\\
+   
+	\item  What is the communication strategy and how complex is it?\\
+	A: The agents use two mechanisms for communication: a blackboard and message exchanging. Some communication protocols are composed by one single message sent by an agents to others (e.g., when an enemy is inspected or when an agent report its action). Other protocols use more messages, for example when a damaged agent request a repair, nine messages are sent among the damaged agent and the repairers.%\\
+		  
+    \item  How are the following agent features considered/implemented: \emph{autonomy}, \emph{proactiveness}, \emph{reactiveness}?\\
+	A: The agents are autonomous, reactive, and proactive. They have autonomy to decide how and when to execute their actions, they react to environment events and new messages, and are proactive while looking for a better vertex.%\\
+
+
+	\item  Is the team a truly \textbf{multi}-agent system or rather a centralised system in disguise?\\
+	A: The tasks of the team are decentralised among the agents which need to coordinate themselves to produce a coherent global behaviour.%\\
+	
+	
+	\item  How much time (man hours) have you invested (approximately) for implementing your team?\\
+	 A: We expended about 500 hours developing the system.%\\
+
+
+	\item  Did you discuss the design and strategies of you agent team with other developers? To which extend did your test your agents playing with other teams.\\
+	A: We did not discuss the design or strategy with other teams before the contest.%\\ % because we tested different strategies in order to decide which would be used in the contest. 
+	
+\end{enumerate}
+
+\section{Software Architecture}
+
+\begin{enumerate}
+	\item  Which programming language did you use to implement the Multi-Agent system?\\
+	A: The language used for programming our agents is Jason 1.3.8 \cite{bordini:2007}.%\\
+	
+	\item  How have you mapped the designed architecture (both Multi-Agent and individual agent architectures) to programming codes, i.e., how did you implement specific agent-oriented concepts and designed artifacts using the programming language?\\
+	A: The BDI concepts provided by the Jason language are the building blocks to develop our strategies.%\\ %It allows the creation of plans so the agents can complete their goals and the implementation of more than only one strategy, each one described by a plan. Our agent communication has two ways: agent to environment and agent to agent. In the first situation in each step the framework EISMASSim receives a XML file with the percepts of the agents. The agent-to-agent communication uses the Jason's performative communication.
+	
+	\item  Which development platforms and tools are used? How much time did you invest in learning those?\\
+	A: We used Eclipse platform with Jason 1.3.8 plug-in. These tools were known by all team members then we spend just few hours learning new features. %\\
+	
+	\item  Which runtime platforms and tools (e.g. Jade, AgentScape, simply Java, $\ldots$) are used? How much time did you invest in learning those?\\
+	A: We used EISMASSim framework to communicate with the environment and spent about 50 hours to learn it. For communication among the agents, we used Jason centralised infrastructure.%\\
+		
+	\item  What features were missing in your language choice that would have facilitated your development task?\\
+	A: The Jason language has almost all features we needed to program our agents. However, for some algorithms, we preferred Java because it is faster.%\\
+	
+	\item  Which algorithms are used/implemented?\\
+	A: We used two traditional algorithms for graphs: Dijkstra and breadth-first search.%\\ %algorithm to find the best path between vertices. The second is the breadth-first search algorithm to locate the best area in the graph. These algorithms were implemented using Java methods and our BDI agents used internal actions to invoke these methods.
+	
+	\item  How did you distribute the agents on several machines? And if you did not please justify why.\\
+	A: The agents were conceived to execute in the same machine to simplify blackboard programming, which uses shared memory. Future versions of the system will use distributed blackboards.%\\
+		
+	\item  To which extend is the reasoning of your agents synchronized with the receive-percepts/send-action cycle?\\
+	A: The synchronisation with the environment is given by the reasoning cycle of Jason, where the first step includes the perception and the last the action.%\\
+		
+	\item  What part of the development was most difficult/complex? What kind of problems have you found and how are they solved?\\
+	A: A blackboard has been used to share and build the knowledge about the environment. The process to update information in the graph has a high computational cost, lasting more than one step. Therefore, to avoid losing steps, the graph is updated and shared every three steps.%\\
+		
+	\item  How many lines of code did you write for your software?\\
+	A: We have 7885 lines of code, 5504 written in Jason and 2381 written in Java.%\\
+		
+		
+\end{enumerate}
+
+\section{Strategies, Details and Statistics}
+
+\begin{enumerate}
+	\item  What is the main strategy of your team?\\
+	A: We conceived our system strategy in two main phases: exploration, in which the explorers identify all vertices and nodes in the map and the best zones, and exploitation, where all agents try to conquest and defend these zones.%\\
+	 
+ 	\item  How does the overall team work together? (coordination, information sharing, ...)\\
+	A: Our agents exchange information to coordinate their activities.%\\ %This information exchange also helps to prevent redundant actions.
+
+	\item  How do your agents analyse the topology of the map? And how do they exploit their findings?\\
+	A: Some important information about the graph structure is shared and synchronized in the blackboard and it is used by the agents to move through the map. Despite this, agents do not use any information about topology to make the decisions. %\\
+
+	\item  How do your agents communicate with the server? \\
+	A: We use the EISMASSim framework to communicate with the server. External actions and usual perception are used by the agents to interact with the EISMASSim.%\\
+
+	
+	\item  How do you implement the roles of the agents? Which strategies do the different roles implement?\\
+	A: The implemented strategies for each agent type is shown in Table~\ref{tab:tabStrategies}.%\\
+	
+	\item  How do you find good zones? How do you estimate the value of zones?\\
+	A: The system uses a modified version of the BFS algorithm to find the best zones in the map. It is run for all vertices, summing their values until some depth. The vertex with the highest sum represents where the best zone is (zone 1). After it, the algorithm tries to find the second best vertex to set the second best zone (zone 2).%\\ %This algorithm is not optimal because its result is always a circular shape, when often the ideal choice is a free shape.
+
+
+	\item  How do you conquer zones? How do you defend zones if attacked? Do you attack zones?\\
+	A: With the zones defined, each agent is informed about the central vertex of its zone and how far they can travel inside it. The distance they can travel is the shortest path, in  number of edges, between the central vertex and the target vertex. To defend these zones, the saboteurs attack all opponents inside the zone or in nearby vertices. The other agents stay in a vertex that has two neighbour vertices that belongs to our system. It is assumed that if the enemy zone is not near, the opponent likely has a small zone and then our agents do not try to attack it.%\\
+
+
+	\item  Can your agents change their behaviour during runtime? If so, what triggers the changes?\\
+	A: If the opponent does not have any buying strategy, the \texttt{Hulk} agent changes its behaviour and it stops buying upgrades. Besides it, in the start of the match the saboteurs attack the enemies, but after some steps they change their behaviour to attack the enemies. %\\
+
+
+	\item  What algorithm(s) do you use for agent path planning? \\
+	A: We used Dijkstra to path planning.%\\
+
+
+	\item  How do you make use of the buying-mechanism?\\
+	A: It was defined the minimum that the agents have to buy in order to make the enemy expend its money. In particular, we have \emph{one} agent (named \texttt{Hulk}) that focus on buying and inducing all the opponents to also buy and spend their money.%\\ %One agent (named \texttt{Coach}) was chosen to receive information about the opponents and if necessary this agent informs to \texttt{Hulk} to stop buying. 
+
+
+	\item  How important are achievements for your overall strategy?\\
+	A: The achievement points are quite important since they accumulate each step. It is desirable to get the maximum of achievement points as soon as possible, but some achievements are hard to get. For example, our system does not surveys all edges and they do not inspect all opponents because it takes a long time and it is better to keep the agents in the best vertices, getting water wells score. %\\
+
+
+    \item  Do your agents have an explicit mental state?\\
+	A: The agents have their beliefs and use them to reason about their next action.%\\ %The agents also keep in their beliefs base many information to exchange with other agents.
+
+
+	\item  How do your agents communicate? And what do they communicate?\\
+	A: Our agents communicate indirectly by using the blackboard and directly by message exchanging. %\\ %In the blackboard all information about the graph structure is synchronized. By the message exchanging the agents transmit informations about the enemies, friends, executed actions, damages, map zones, vertices and edges. 
+	
+	\item  How do you organize your agents? Do you use e.g. hierarchies? Is your organization implicit or explicit?\\
+	A: There is an explicit pre-defined hierarchy to prevent redundant actions: agents with higher priority decide before the others.%\\
+
+
+	\item  Is most of your agents’ behavior emergent on an individual or team level?\\
+	A: In our strategy both individual and group behaviour are important. The individual behaviour is important when the agents are isolated in the map trying to get achievement points. The group behaviour is responsible for preventing redundant actions and conquering zones, for example.%\\
+
+
+	\item  If your agents perform some planning, how many steps do they plan ahead?\\
+	A: We do not use planning, all plans are previously programmed based on the strategies. %\\
+          %Our agents do not plan a lot of steps ahead because the environment changes fast, and so the plans must be adapted to it. In most cases the agents react in just one step. Some situations when they plan with some steps ahead is when there is a disabled agent or unprobed vertex. 
+
+	\item  If you have a perceive-think-act cycle, how is it synchronized with the server? \\
+	A: We use the EISMAssim framework \cite{behrens:2011} to synchronize the agent actions to the server.%\\
+	
+\end{enumerate}
+
+\section{Conclusion}
+\begin{enumerate}
+	\item  What have you learned from the participation in the contest?\\
+	A: We learned a lot about MAS developing and about the tools and languages we used. %\\
+		
+	\item  Which are the strong and weak points of the team?\\
+	A: Our strongest point is that we created several strategies for each system feature and  tested them against each other to select the more efficient ones. Our weakness is that our system is not so offensive. Another problem is that our agents does not focus on defending their own zone.%\\
+		
+	\item  How suitable was the chosen programming language, methodology, tools, and algorithms?\\
+	A: The Jason programming language was quite mature and suitable for the agent programming. However, we still need tools for programming and debugging at a higher level of abstraction.%\\ %supports agent programming with abstract concepts like plans, beliefs, and goals which are suitable for the problem and very expressive. We did not identify any bug on Jason which shows the maturity of this kind of language. Although we can evaluate the used tools positively in general, some features are still missing. For example, it was very difficult to change, refactor, and debug the agents code. The tools provided by Jason for debugging, like the sniffer and the mind inspector, are too specific and focused on the details.
+
+	\item  What can be improved in the contest for next year?\\
+	A: We can improve our system both in the strategies and the tools. Our system is focused only on the agent aspect and more global aspects should be considered.%\\ %, for instance, for organisation and interaction programming as first class abstractions.
+	
+	\item  Why did your team perform as it did? Why did the other teams perform better/worse than you did?\\
+	A: Our system performed well because we focused on extensively testing all strategies. %\\
+	
+	\item  Which other research fields might be interested in the Multi-Agent Programming Contest?\\
+	A: We think that some parts of the problem can be solved by optimisation techniques, which we plan to use in future versions of the systems.%\\
+	
+	\item  How can the current scenario be optimized? How would those optimizations pay off? \\
+	A: We propose two improvements. ($i$) Inform opponent's score. It would allow participants to design strategies based on the current match result, rising more confrontations. ($ii$) Leave the graph less connected to increase the use of edges.%\\ %Currently the edges do not influence the system strategies but a less connected graph forces the systems to work with the edges weight.
+	
+	
+\end{enumerate}

@@ -1,0 +1,55 @@
+\documentclass{llncs}
+
+
+%\usepackage{todonotes}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{subfigure}
+
+\usepackage{graphicx,url}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{epstopdf}
+\usepackage{hyperref}
+\usepackage{xspace}
+\usepackage{times}
+
+\newcommand{\jacamo}{\textsf{\small JaCaMo}\xspace}
+\newcommand{\moise}{$\mathcal{M}$\textsf{\small oise}\xspace}
+\newcommand{\cartago}{\textsf{\small CArtAgO}\xspace}
+
+\begin{document}
+\title{A Team for MAPC Considering the Organization and the Environment as First-class Abstractions\thanks{We are grateful for the support given by CAPES and CNPq (grant numbers 140261/2013-3, 306301/2012-1).}}
+\author{Maicon R. Zatelli \and 
+		Maiquel de Brito \and 
+		Tiago L. Schmitz \and \\
+		Marcelo M. Morato \and
+		Kaio S. de Souza \and 
+		Daniela M. Uez \and 
+		Jomi F. H\"{u}bner }
+
+\institute{Department of Automation and Systems Engineering \\ Federal University of Santa Catarina \\ CP 476, 88040-900 Florian\'{o}polis - SC - Brasil \\ 
+\email{	{\scriptsize \{xsplyter,tiagolschmitz,marcelomenezes73,dani.uez\}@gmail.com, maiquel.b@posgrad.ufsc.br,kaiossouza@hotmail.com,jomi.hubner@ufsc.br}} }
+
+\maketitle
+\begin{abstract} 
+This paper describes the SMADAS team for the Multi-Agent Programming Contest 2013. Throughout this paper we highlight the design, main strategies, tools, and results of our team. For this year we used the \jacamo\ platform to develop the team, which is composed of Jason (to program the agents), \cartago\ (to program the environment), and \moise\ (to program the organization). We also improved the last year team with new strategies focused on the updated ``Agents on Mars'' scenario.
+\end{abstract}
+
+% -------------------------------
+% Inclusao dos capitulos do texto
+\input{introducao} 		
+\input{analise}
+\input{arquitetura}
+\input{estrategias} 
+%\input{resultados}  
+\input{conclusao} 	
+
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+
+\include{respostas} 
+%---------------------------------
+%MAX PAGES = 10
+\end{document}

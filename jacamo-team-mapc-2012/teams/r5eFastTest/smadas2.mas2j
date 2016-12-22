@@ -1,0 +1,61 @@
+/*
+    Example of Jason agents for 
+	Multiagent Programming Contest 2011
+	http://www.multiagentcontest.org/
+	
+	These agents use the EIS interface, see the Sec 4
+	of eismassim.pdf for available actions and
+	perception. Note that the scheduling is managed by the
+	agents and not by EIS.
+	
+	The (very simple) strategy is based on the java 
+	agents provided by MASSIM. Only the explorer is 
+	programmed, but it can inspire you for the other 
+	agents.
+	
+	See mas.log for the output of the execution once
+	the MASConsole has too much debug information.
+	
+    -- by Jomi
+*/
+
+MAS smadasMAPC2012 {
+   //infrastructure: Centralised(pool,2)
+   infrastructure: Centralised
+
+   // Environment initialisation
+   environment: env.CustomEISEnv (
+                       //"lib/eismassim-1.0.3.jar",   // jar file containing the environment implementation 
+                       "lib/eismassim-1.0.3a.jar",   // jar file containing the environment implementation
+						agent_entity(explorer1, connectionB1, "UFSC1"), // agent x entities relation
+						agent_entity(explorer2, connectionB2, "UFSC2"), // password and more details in eismassimconfig.xml
+						agent_entity(repairer1, connectionB3, "UFSC3"),
+						agent_entity(repairer2, connectionB4, "UFSC4"),
+						agent_entity(saboteur1, connectionB5, "UFSC5"),
+						agent_entity(saboteur2, connectionB6, "UFSC6"),
+						agent_entity(sentinel1, connectionB7, "UFSC7"),
+						agent_entity(sentinel2, connectionB8, "UFSC8"),
+						agent_entity(inspector1,connectionB9, "UFSC9"),
+						agent_entity(inspector2,connectionB10, "UFSC10"),
+						agent_entity(explorer3, connectionB11, "UFSC11"),
+						agent_entity(explorer4, connectionB12, "UFSC12"),
+						agent_entity(repairer3, connectionB13, "UFSC13"),
+						agent_entity(repairer4, connectionB14, "UFSC14"),
+						agent_entity(saboteur3, connectionB15, "UFSC15"),
+						agent_entity(saboteur4, connectionB16, "UFSC16"),
+						agent_entity(sentinel3, connectionB17, "UFSC17"),
+						agent_entity(sentinel4, connectionB18, "UFSC18"),
+						agent_entity(inspector3,connectionB19, "UFSC19"),
+						agent_entity(inspector4,connectionB20, "UFSC20")
+                )
+
+   agents:
+			angel;
+			explorer agentArchClass env.MixedAgentArch #4;
+            repairer agentArchClass env.MixedAgentArch #4;
+			saboteur agentArchClass env.MixedAgentArch #4;
+			sentinel agentArchClass env.MixedAgentArch #4;
+			inspector agentArchClass env.MixedAgentArch #4;
+
+   aslSourcePath: "src/asl";
+}

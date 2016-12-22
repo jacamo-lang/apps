@@ -1,0 +1,48 @@
+\documentclass{llncs}
+\usepackage{todonotes}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{subfig} % este é para fazer sub figuras
+
+%\usepackage{float}
+%\floatstyle{boxed} 
+%\restylefloat{figure}
+
+\begin{document}
+\title{SMADAS: a Cooperative Team for the Multi-Agent Programming Contest using Jason}
+%\author{[Authors]}
+%\institute{[Affiliation]}
+\author{	Maicon Rafael Zatelli \and 
+		Daniela Maria Uez \and
+		Jos\'{e} Rodrigo Neri \and \\
+		Tiago Luiz Schmitz \and
+		J\'{e}ssica Pauli de Castro Bonson \and 
+		Jomi Fred H\"{u}bner }
+		
+
+\institute{Department of Automation and Systems Engineering \\ Federal University of Santa Catarina \\ CP 476, 88040-900 Florian\'{o}polis - SC - Brasil \\ 
+\email{	{\{xsplyter,dani.uez,jrf.neri,tiagolschmitz,jpbonson\}@gmail.com,
+		jomi@das.ufsc.br}}}
+
+\maketitle
+\begin{abstract} 
+In this paper we describe the SMADAS system used for the Multi-Agent Programming Contest in 2012. This contest offers an useful context to evaluate tools, techniques, and languages for programming MAS. It is also a good opportunity to learn agent programming and test new features we are developing in our projects. Throughout the paper we highlight the main strategies of our team and comment on the advantages and disadvantages of our system as well as some improvements that still could be done. One important result from this experience regards the agent programming language we used, it provides suitable abstractions for the development of complex system and shows an increment in its maturity since no bugs was discovered this year.
+% We finished the paper by pointing some directions and issues to regard for the future tournaments such as the use of organization and interaction as first class abstractions.
+\end{abstract}
+
+% -------------------------------
+% Inclusao dos capitulos do texto
+\input{introducao} 	% Jomi
+\input{analise}		% Dani
+\input{estrategias} 	% Maicon
+\input{arquitetura} 	% Tiago
+\input{resultados}  	% Rodrigo
+\input{conclusao} 	% Jomi
+
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+
+\include{respostas} 	% Dani
+%---------------------------------
+
+\end{document}

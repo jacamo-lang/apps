@@ -1,0 +1,94 @@
+
+domain_knowledge_base:   
+
+   /* agent_role(Agent, Role, Group): Link an agent "Agent" to a role "Role" in group "Group"*/
+   agent_role(explorer1, explorer, grAlpha).
+   agent_role(explorer2, explorer, grAlpha).
+   agent_role(explorer3, explorer, grBeta).
+   agent_role(explorer4, explorer, grBeta).
+   agent_role(explorer5, explorer, grBeta).
+   agent_role(explorer6, explorer, grAlpha).
+
+   agent_role(sentinel1, sentinel, grAlpha).
+   agent_role(sentinel2, sentinel, grAlpha).
+   agent_role(sentinel3, sentinel, grBeta).
+   agent_role(sentinel4, sentinel, grBeta).
+   agent_role(sentinel5, sentinel, grBeta).
+   agent_role(sentinel6, sentinel, grAlpha).
+
+   agent_role(inspector1, inspector, grAlpha).
+   agent_role(inspector2, inspector, grAlpha).
+   agent_role(inspector3, inspector, grBeta).
+   agent_role(inspector4, inspector, grBeta).
+   agent_role(inspector5, inspector, grBeta).
+   agent_role(inspector6, inspector, grAlpha).
+
+   agent_role(repairer1, repairer, grAlpha).
+   agent_role(repairer2, repairer, grAlpha).
+   agent_role(repairer3, repairer, grBeta).
+   agent_role(repairer4, repairer, grBeta).
+   agent_role(repairer5, repairer, grBeta).
+   agent_role(repairer6, repairer, grAlpha).
+
+   agent_role(saboteur1, saboteur, grAlpha).
+   agent_role(saboteur2, saboteur, grBeta).
+   agent_role(saboteur3, saboteur, grBeta).
+   agent_role(saboteur4, saboteur, grAlpha).
+
+
+   agent_role(explorer6,  explorerLeader, grMain).
+   agent_role(sentinel6,  sentinelLeader, grMain).
+   agent_role(inspector6, inspectorLeader, grMain).
+   agent_role(repairer6,  repairerLeader, grMain).
+   agent_role(saboteur4,  saboteurLeader, grMain).
+
+   /* role_mission(R, M): Link a role "R", stated in Structural Specification,
+                          to a mission M, stated in Functional Specification*/
+   role_mission(explorer,m1).
+   role_mission(sentinel,m2).
+   role_mission(inspector,m3).
+
+
+/* Rule #1
+   The agent that creates the group becomes its leader 
+*/
++makeArtifact(grMain,_,_,_)[agent_name(Ag),artifact_name(workspace)]
+   count-as 
+     play(Ag,leader,grMain)[source(grMain)].
+
+
+
+/* Rule #2
+   When the group is available, the roles are assigned to the agents 
+*/
+*artifact(Group,ora4mas.nopl.GroupBoard,Group)[source(workspace)]
+   count-as 
+    play(Agent,Role,Group)[source(Group)]
+ in 
+    agent_role(Agent,Role,Group).
+
+
+/* Rule #3
+   When the formation status is ok, group grMain becomes responsible for 
+   the scheme  schDomainMars */
+*formationStatus(ok)[source(GroupArt)]
+ count-as
+    responsibleFor(schDomainMars)[source(GroupArt)]
+ in 
+    not (commitment(_,_,schDomainMars)[source(schDomainMars)]).
+
+
+
+/* Rule #4
+   An agent "Ag", playing a role "Role" in group "Group"
+   is committed to a mission "Mission"
+   if (i) it is not committed yet, 
+   (ii) the scheme is created and 
+   (iii) there is, in domain knowledge base, some relation between the role "Role" and the mission "Mission
+ */
+*play(Ag,Role,Group)[source(Group)] 
+ count-as 
+    commitment(Ag,Mission,schDomainMars)[source(schDomainMars)]
+ in     
+    artifact(_,ora4mas.nopl.SchemeBoard,schDomainMars)[source(workspace)] &  
+    role_mission(Role, Mission).

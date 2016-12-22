@@ -1,0 +1,185 @@
+\section*{Short Answers}
+
+\appendix
+
+\section{Introduction}
+
+\begin{enumerate}
+\item What was the motivation to participate in the contest?
+	\item[A:] Testing the \jacamo\ platform in the contest scenario and evaluate some other technologies developed in our master and PhD thesis. \\
+
+\item What is the (brief) history of the team? (MAS course project, thesis evaluation, $\ldots$)
+	\item[A:] Our team was formed by members from the Multi-Agent Systems research group (called SMADAS) at Federal University of Santa Catarina (UFSC).\\
+	
+\item What is the name of your team?
+	\item[A:] Our team's name is SMADAS-UFSC.\\
+
+\item How many developers and designers did you have? At what level of education are your team members?
+	\item[A:] Our team has seven developers and everyone was involved with the system design. We have one PhD, four PhD student, and two undergraduate students. \\
+	
+\item From which field of research do you come from? Which work is related?
+	\item[A:] All team members work with Multi-Agent Systems and Artificial Intelligence.\\
+	
+\end{enumerate}
+
+\section{System Analysis and Design}
+
+\begin{enumerate}
+\item Did you use multi-agent programming languages? Please justify your answer.
+ 	\item[A:] We used \jacamo\ framework. Thus, we used Jason for implement the agents, \cartago\ for the environment and \moise\ organizational model to specify the organization. \\
+ 	
+\item If some multi-agent system methodology such as Prometheus, O-MaSE, or Tropos was used, how did you use it? If you did not, please justify.
+   	\item[A:] We did not used any existent AOSE method. The problem seemed quite simple to use a complete methodology. \\
+   	
+\item Is the solution based on the centralization of coordination/information on a specific agent? Conversely if you plan a decentralized solution, which strategy do you plan to use?
+ 	\item[A:] The coordination is most based on \moise\ organizational structure. However, we use an agent - called coach, which adopts the role \emph{leader} - that manages the organization and performing the setup of organizational structure. \\
+ 	
+\item What is the communication strategy and how complex is it?
+ 	\item[A:] The agents uses message exchange to call repairs, saboteurs or inform others about good vertex and map regions. Other informations are shared by a blackboard.	\\
+ 	
+\item How are the following agent features considered/implemented: \emph{autonomy}, \emph{proactiveness},\emph{reactiveness}?
+ 	\item[A:] Our agents are autonomous to decided how to achieve their specific goals, but all of them have to attend the organizational norms. Similarly, the agents may behave proactively or reactively, in accordance with the needs. For instance, damaged agent will call a repairer and all agents reacts to the environment events, like the start of a step.\\
+ 	 	
+\item Is the team a truly \textbf{multi-agent} system or rather a centralized system in disguise?
+ 	\item[A:] Our team was developed as a truly MAS composed by three dimensions: agents, organization, and  environment.\\
+ 	 	
+\item How much time (man hours) have you invested (approximately) for implementing your team?
+	\item[A:] Together, we used around 400 hours between tests and programming.\\
+	
+\item Did you discuss the design and strategies of you agent team with other developers? To which extend did your test your agents playing with other teams.
+	\item[A:] We did not share our strategy in advance. However, we participated of all test matches provided by contest organization.\\	
+	
+\item What data structures are shared among the agents, and which are private of each agent?
+	\item[A:] Our agents share informations about the graph structure, the enemy position, and inspected agents. Information about health, energy, zones, and others are private for each agent. \\
+	
+	
+\end{enumerate}
+
+\section{Software Architecture}
+
+\begin{enumerate}
+\item Which programming language did you use to implement the multi-agent system?
+	\item[A:] Our multi-agent system is developed in \jacamo\ platform, using Jason, \cartago\ and \moise.\\
+	
+\item How have you mapped the designed architecture (both multi-agent and individual agent architectures) to programming codes, i.e., how did you implement specific agent-oriented concepts and designed  artifacts using the programming language?
+	\item[A:] We used an environment and organizational multi-agent framework, which provide abstractions to develop specific agent-oriented concepts, environmental artifacts, and organizational rules. \\
+	
+\item Which development platforms and tools are used? How much time did you invest in learning those?
+	\item[A:] We used Eclipse platform with Jason 1.3.8 plug-in. These tools were known by all team members then we spent just few hours learning new features.\\
+	
+\item Which runtime platforms and tools (e.g. Jade, AgentScape, simply Java, $\ldots$) are used? How much time did you invest in learning those?
+	\item[A:] We used EISMASSim framework to communicate with the environment, Jason centralized infrastructure for communication among the agents and ORA4MAS, and \cartago\ and \moise\ based plaftorm. \\
+	
+\item What features were missing in your language choice that would have facilitated your development task?
+	\item[A:] The \jacamo\ framework provided most of the features needed. To build graph algorithms we used Java because it is a powerful language and it is quite simple to integrate with \jacamo.\\
+	
+\item Which algorithms are used/implemented?
+	\item[A:] We implemented some graph algorithms like Dijkstra, breadth-first search and identification of cut vertices.\\
+	
+\item How did you distribute the agents on several machines? And if you did not please justify why.
+	\item[A:] We did not distribute the agents on several machines. Our agents run fast enough on a single machine for the contest.\\
+	
+\item Do your agents perform any reasoning tasks while waiting for responses from the server, or is the reasoning synchronized with the receive-percepts/send-action cycle?
+	\item[A:] While waiting for the server, our agents reasoning about some informations which are not used to perform an action, like the good zones definition, graph synchronization, repairer allocation, etc.\\
+	
+\item What part of the development was most difficult/complex? What kind of problems have you found and how are they solved?
+	\item[A:] The most difficult was to decide which strategy use for the contest. We implemented several strategies and tested each one a lot. As we used \moise\ and \cartago\ technologies, we also found issues to improve on this technologies.\\
+		
+\item How many lines of code did you write for your software?
+	\item[A:] We used 8324 lines to implement our team: 3794 to Jason agents; 135 to \moise\ organization; 96 to \cartago\ environment and 4434 lines in Java. \\
+	
+	
+\end{enumerate}
+
+\section{Strategies, Details and Statistics}\label{sec:strategies}
+
+\begin{enumerate}
+\item What is the main strategy of your team?
+ 	\item[A:] Our main strategy is acquire achievement points and define good zones as soon as possible. After it, we spread the agents in the map and we keep the agents in their places until the end of the game. We also use the saboteurs to disturb the enemy and the repairers to help disabled agents.\\
+ 	 	
+\item How does the overall team work together? (coordination, information sharing, ...)
+	\item[A:] We use an explicit organization structure to coordinate the agents. It defines the role for each agent and the goals they have to achieve. In addition, we used an artifact where the information about the graph structure is shared.	\\
+	
+\item How do your agents analyze the topology of the map? And how do they exploit their findings?
+	\item[A:] We do not try to find a map topology. However, we identify the cut vertices, which usually represents good zones that can be conquered by a single agent. \\
+	
+\item How do your agents communicate with the server?
+	\item[A:] We used the EISMASSim libraries to communicate with the server.\\
+	
+\item How do you implement the roles of the agents? Which strategies do the different roles implement?
+	\item[A:] Explorers are responsible to probe all vertices and they defines which is a good place to conquer. 
+	Saboteurs are responsible to protect the zones and to attack enemies. 
+	Repairers are responsible to help damaged agents 
+	Inspectors are responsible to protect the best places and inspect the enemies. 
+	Sentinels are responsible to protect the best places and to survey all the team.
+	More details about the strategies of each roles are explained in Sec.~\ref{secStrategies}.\\
+	
+\item How do you find good zones? How do you estimate the value of zones? %TODO ver
+	\item[A:] The good zones are defined in terms of \emph{hills}, \emph{pivots}, and \emph{islands}. A hill (Fig.~\ref{fig:hill} in green) is a zone formed by several vertices that have a good value and are in the same region of the map. As in the 2012 team, the agents try to discover two hills. The hills are defined as follows: for each vertex $v$ of the graph, the algorithm sums the values of all vertices up to two hops of $v$, including $v$. The two vertices with highest sums are defined as the center of the hills, and then the agents try to stay on their neighborhoods. Islands (Fig.~\ref{fig:islands} in blue) are regions of the map that can be conquered by a single agent. An island is a zone that has only one vertex (a \emph{cut vertex}) in common with the remaining graph.  They are found by disconnecting the edges of each cut vertex of the graph. It produces two disconnected subgraphs, and the smallest one, plus the cut vertex, is an island. Pivots (Fig.~\ref{fig:pivots} in green) are regions of the map that can be conquered by just two agents. For each pair of vertices ($u$,$v$) we find all vertices $w$ connected to $u$ and $v$. For all vertices $w$ (including $u$ and $v$) we also find all vertices only connected to these vertices. For example, if there is a vertice $k$ connected only to the vertice $w$, then $k$ also belongs to the pivot. Furthermore, if there is an island connected to some of these vertices we consider all the vertices of the island. The best pivots are chosen considering the sum of all vertices. More details about these kinds of zones are explained in Sec.~\ref{secStrategies}. \\
+	
+\item How do you conquer zones? How do you defend zones if attacked? Do you attack zones?
+	\item[A:] The agents which control islands do the following things: if there are enemies in the island they go to the same vertex of the enemy, so both teams do not get scores of that island. In addition they call the saboteur leader to fight against the enemy agent. If the saboteur leader is already busy protecting other island, the saboteur leader calls the saboteur helper of the group special operations. If both ones are busy, the saboteur leader keeps a list of islands with enemies. The agents that control pivots do not move of their places, since most of times the enemy would not stay in the same place. Therefore, we defined that these agents do not need to move. If the enemy also continues in the same vertex both teams do not get scores, so our team also cancels the enemy strategy. The agents which controls the hills simply moving to the boarder of the big zone in order to expand it. If they break the zone they come back to the previous places in order to try to expand it again. We also defined the sentinels to stay in the same places all the time in the big zones (hills), because it can make the enemies to avoid those places and we can get some fixed scores of the hills. Finally, our saboteurs disturb the enemy all the time. \\
+	
+\item Can your agents change their behavior during runtime? If so, what triggers the changes?
+	\item[A:] The agents change their behavior in some pre-defined steps. For instance, in the step 7 the agents starting find a good big zone to get most achievement points as possible and in the step 130 they look for smallest ones. When all vertices are probed, all the agents start participating to conquer pivots and islands.\\
+	
+	
+\item What algorithm(s) do you use for agent path planning?
+	\item[A:]  We used Dijkstra algorithm to find the shortest path between two vertices.\\
+	
+\item How do you make use of the buying-mechanism?
+	\item[A:] We did not use the buying-mechanism.\\
+	
+\item How important are achievements for your overall strategy?
+	\item[A:] The achievements are important. We try to get most achievements as soon as possible, since it accumulate in each step. However, we guess the achievements did not make the difference for our team in this year. \\
+	
+\item Do your agents have an explicit mental state?
+	\item[A:]  Yes, our agents uses BDI architecture and uses their beliefs to decide their actions. \\
+	
+\item How do your agents communicate? And what do they communicate?
+	\item[A:] The agents communicate by message exchange and a blackboard. They use message exchange to call a repairer or a saboteur, to inform the good zones and vertices, to exchange information about probed vertices and to communicate their current action (It prevents two agents performing the same action). The blackboard is used to share information about the graph structure and other agents position.\\
+		
+\item How do you organize your agents? Do you use e.g. hierarchies? Is your organization implicit or explicit?
+	\item[A:] To organize our agents we use \moise\ organization model. Also, the agents follow an hierarchy, since we defined a leader for each agent kind and an overall leader. \\
+	
+	
+\item Is most of you agents' behavior emergent on and individual and team level?
+	\item[A:] A team behavior is important for our agents strategy. Thus, our agents behavior is most team level.\\
+	
+\item If your agents perform some planning, how many steps do they plan ahead.
+	\item[A:] The agents do not plan in advance. Since the environment is dynamic, the agents choose their action in each step. \\
+	
+\item If you have a perceive-think-act cycle, how is it synchronized with the server?
+	\item[A:] We used EISMASSim to communicate to the server. After getting the percepts, the agents reason about it and decide what action to do. Both, percepts and actions are performed by EISMASSim. \\
+	
+	
+\end{enumerate}
+
+\section{Conclusion}
+\begin{enumerate}
+\item What have you learned from the participation in the contest?
+	\item[A:] We learned more from MAS development and about the technologies we used, like \moise\ and \cartago. Also, contest allow us to evaluate and improve these technologies.\\
+	
+	
+\item Which are the strong and weak points of the team?
+	\item[A:] The strategy to get many small zones was the strongest point of our team and it turned hard for the opponents to disturb our zones since our agents were spread in the whole map while our saboteurs were able to disturb the opponent zones. However, our team can be improved to perform better in maps where there are too many good vertices gathered in the same place. In that case, the best strategy seems to build a big zone and defend it instead of building just small zones.\\
+	
+\item How suitable was the chosen programming language, methodology, tools, and algorithms?
+	\item[A:] All the technologies we used are suitable to MAS development. However, during tests we made some new features to improve these technologies. \\
+	
+\item What can be improved in the context for next year?
+	\item[A:] The contest scenario should be released earlier and new features should not be made after released. In this contest, the scenario changed (the thinning was added) after the first releases and it made us change our strategies before the contest.\\
+	
+	
+\item Why did your team perform as it did? Why did the other teams perform better/worse than you did.
+	\item[A:] Our team performed very well, except in maps with low thinning (bellow 20\%) with most of good vertices  located in the same regions. The other teams performed worse most of times because they tried to conquer big zones, which are harder to protect. \\
+	
+	
+\item Which other research fields might be interested in the Multi-Agent Programming Contest?
+	\item[A:] Machine learning is one interesting field to improve our next team. \\
+	
+	
+\item How can the current scenario be optimized? How would those optimization pay off?
+	\item[A:] The ranged actions should be revised in order to balance the fail probability.\\
+	
+\end{enumerate}

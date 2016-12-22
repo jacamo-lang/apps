@@ -1,0 +1,87 @@
+domain_knowledge_base:   
+
+   /* agent_role(Agent, Role): Link an agent "Agent" to a role "Role" */
+   agent_role(explorer1, explorer).
+   agent_role(explorer2, explorer).
+   agent_role(explorer3, explorer).
+   agent_role(explorer4, explorer).
+   agent_role(explorer4, explorer).
+   agent_role(explorer4, explorerLeader).
+
+   agent_role(sentinel1, sentinel).
+   agent_role(sentinel2, sentinel).
+   agent_role(sentinel3, sentinel).
+   agent_role(sentinel4, sentinel).
+   agent_role(sentinel5, sentinel).
+   agent_role(sentinel6, sentinelLeader).
+
+   agent_role(inspector1, inspector).
+   agent_role(inspector2, inspector).
+   agent_role(inspector3, inspector).
+   agent_role(inspector4, inspector).
+   agent_role(inspector5, inspector).
+   agent_role(inspector6, inspectorLeader).
+
+   agent_role(repairer1, repairer).
+   agent_role(repairer2, repairer).
+   agent_role(repairer3, repairer).
+   agent_role(repairer4, repairer).
+   agent_role(repairer5, repairer).
+   agent_role(repairer6, repairerLeader).
+
+   agent_role(saboteur1, saboteur).
+   agent_role(saboteur2, saboteur).
+   agent_role(saboteur3, saboteur).
+   agent_role(saboteur4, saboteurLeader).
+
+   /* role_mission(R, M): Link a role "R", stated in Structural Specification,
+                          to a mission M, stated in Functional Specification*/
+   role_mission(explorer,m1).
+   role_mission(sentinel,m2).
+   role_mission(inspector,m3).
+
+
+/* Rule #1
+   The agent that creates the group becomes its leader */
++makeArtifact(grMain,_,_,_)[agent_name(Ag),artifact_name(workspace)]
+   count-as 
+     play(Ag,leader,grMain)[source(grMain)].
+
+
+
+
+/* Rule #2
+   When the group is available, the roles are assigned to the agents */
+*artifact(grMain,ora4mas.nopl.GroupBoard,grMain)[source(workspace)]
+   count-as 
+    play(Agent,Role,grMain)[source(grMain)]
+ in 
+    agent_role(Agent,Role).
+
+
+
+/* Rule #3
+   When the formation status is ok, group grMain becomes responsible for 
+   the scheme  schDiscoverMap */
+*formationStatus(ok)[source(grMain)]
+ count-as
+    responsibleFor(schDiscoverMap)[source(grMain)]
+ in 
+    not (commitment(_,_,schDiscoverMap)[source(schDiscoverMap)]).
+
+
+
+
+/* 
+   An agent "Ag", playing a role "Role" in group "Group"
+   is committed to a mission "Mission"
+   if (i) it is not committed yet, 
+   (ii) the scheme is created and 
+   (iii) there is, in domain knowledge base, some relation between the role "Role" and the mission "Mission
+ */
+*play(Ag,Role,grMain)[source(grMain)] 
+ count-as 
+    commitment(Ag,Mission,schDiscoverMap)[source(schDiscoverMap)]
+ in     
+    artifact(_,ora4mas.nopl.SchemeBoard,schDiscoverMap)[source(workspace)] &  
+    role_mission(Role, Mission).

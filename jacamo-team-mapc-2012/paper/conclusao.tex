@@ -1,0 +1,30 @@
+% +- 1 página
+% Como foi a participação?
+%  - Pontos positivos e negativos
+% Limitações do time e problemas
+%	- Nosso time contra adversários
+%		- contra time mais fraco (desorganizado, que não busca um bom ponto no mapa) não tem o mesmo desempenho
+%	- Nosso código:
+%		- Dificuldades de alteração do código: tudo está no agente
+%		- Difícil depuração 
+%		- Agentes muito reativos
+% Sugestões para o próximo ano
+
+\section{Conclusion}
+% \begin{enumerate}
+% \item What have you learned from the participation in the contest?
+% \item Which are the strong and weak points of the team?
+% \item How suitable was the chosen programming language, methodology,
+%   tools, and algorithms?
+% \item What can be improved in the context for next year?
+% \item Why did your team perform as it did? Why did the other teams perform better/worse than you did.
+% \item Which other research fields might be interested in the Multi-Agent Programming Contest?
+% \item How can the current scenario be optimized? How would those optimization pay off?
+% \end{enumerate}
+
+Participating in the contest was a worthy experience for all the team, we learned a lot about MAS developing and about the tools and languages we used. The contest result, where our team got the first place, is due both to the dedication on developing the strategies described in this papers and to the tools we used. For instance, the Jason programming language supports agent programming with abstract concepts like plans, beliefs, and goals which are suitable for the problem and very expressive. Different from previous participations in the contest where several bugs in Jason were discovered and fixed~\cite{hubner:10a}, we did not identify any bug in Jason this year, which shows the maturity of this language. Although we can evaluate the used tools positively in general, some features are still missing. For example, it was very difficult to change, refactor, and debug the agents code since we have 5504 lines of Jason code and 20 agent instances running concurrently. The tools provided by Jason for debugging, like the sniffer and the mind inspector, are too specific and focused on the details. It is a hard task to identify a bug by looking at thousand of mind samples or message traces. High level abstractions and tools are required to help the debugging of complex MAS.
+
+There is still a room for improvements in our system both in the strategies and the tools. Some of the improvements will be investigated in the authors' master and PhD thesis where proposals will be compared against the version of the system described in this paper. One particular drawback of the system is to be focused only on the agent aspect, all the code is ``agent programming''. More global aspects should be considered, for instance by organisation and interaction programming as first class abstractions. For that, new models and tools need to be developed.
+
+For the current scenario of the contest, we would propose two improvements. ($i$) Inform opponent's score. It would allow participants to design strategies based on the current match result, rising more confrontations. ($ii$) Leave the graph less connected to increase the use of edges.
+
